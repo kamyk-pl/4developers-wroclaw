@@ -1,0 +1,24 @@
+extends ../layout/layout
+
+block vars
+
+block title
+
+    | Tech summary
+
+block content
+
+    i
+        | Opcjonalnie
+    br
+    br
+
+    | Co się technicznie zmieniło w projekcie (?)
+
+    ul
+        li
+            | instalowanie ręczne -> batch -> półautomat w powershellu
+        li
+            | cloudformation -> terraform
+        li
+            | appstream -> autoscaling, elb, sns, sqs, eventbridge...
