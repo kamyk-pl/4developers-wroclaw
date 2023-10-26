@@ -1,0 +1,24 @@
+extends layout/layout.pug
+
+block vars
+  - var title = 'g5'
+
+block title
+    | g5 vs g4dn
+
+block content
+    ul
+        li.fragment
+            | G4dn to najmocniejsza rodzina kart instancji udostępniona w AWS Appstreamie
+        li.fragment
+            | G5 są dostępne w klasycznych EC2
+        .fragment
+            img(src="img/g5g4dn.png" alt="g5 g4dn difference" style="max-height: 800px;max-width: 800px;")
+
+        li.fragment
+            | Klient:
+            span.italics  'Możecie tak to przerobić, żeby działało jak teraz ale z G5 na EC2'
+        li.fragment
+            | iteratec:
+            span.italics  'hmm'
+

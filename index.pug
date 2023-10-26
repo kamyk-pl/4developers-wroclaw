@@ -37,6 +37,7 @@ body
             include ./slides/sukces.pug
             include ./slides/happily-every-after.pug
             include ./slides/badcharacter.pug
+            include ./slides/g5.pug
 
             include ./slides/kuba/appstream.pug
             include ./slides/kuba/g5.pug
@@ -164,7 +165,7 @@ body
             ////- include ./slides/demo.pug
             //include slides/css/theend
  
-    .frame.space
+    .frame.space(style="display:none")
         img(src="img/iteratec.png", alt="")
         h3 
              | Czasem warto wyważać otwarte drzwi, czyli jak napisaliśmy sobie lepszą implementację produktu AWS  - Jakub Dymon,  Paweł Kamiński
@@ -202,44 +203,7 @@ body
 
     script.
         Reveal.on('slidechanged', () => {
-
-        const decoration =  backgroundColors;
-        shuffleArray(decoration)
-        const sliced = decoration.slice(0,4)
-        //sliced.push('white','white','white','white')
-        shuffleArray(sliced);
-
-        
-         document.querySelectorAll('.present .decoration .box').forEach(
-            e=> {                
-                e.classList.remove(...backgroundColors);
-                e.classList.add(sliced.pop()) 
-            }
-         )
-
-        const random =   Math.floor(Math.random() * 3) 
-        document.querySelector('.present .decoration').style.left='';
-        document.querySelector('.present .decoration').style.bottom='';
-        document.querySelector('.present .decoration').style.right='';
-        document.querySelector('.present .decoration').style.top='';
-        switch(random){
-            case 0: { 
-                 document.querySelector('.present .decoration').style.left='3vw';
-                 document.querySelector('.present .decoration').style.bottom='3vh';
-                 return;
-                }
-
-            case 1: { 
-                 document.querySelector('.present .decoration').style.right='3vw';
-                 document.querySelector('.present .decoration').style.bottom='3vh';
-                 return;
-                }
-            case 2: { 
-                 document.querySelector('.present .decoration').style.right='3vw';
-                 document.querySelector('.present .decoration').style.top='3vh';
-                 return;
-                }
-        }
+             document.querySelector('.space').style="dispaly=block"
         });
 
       
