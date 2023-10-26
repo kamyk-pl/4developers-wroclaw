@@ -4,7 +4,7 @@ block vars
 
 block title
 
-    | ASG vs AppStream
+    | EC2
 
 block content
 
@@ -14,20 +14,20 @@ block content
                 include ../../img/appstream.svg
                 | &nbsp;AppStream 
             th 
-                include ../../img/asg.svg
-                | &nbsp;Auto Scaling
+                include ../../img/ec2.svg
+                | &nbsp;EC2 
         tr.fragment 
             td 
-                | Pojedyncze instancje
+                | AppStream Image Builder
             td 
-                | Skalowanie jednakowych instancji 
+                | AMI from an instance
         tr.fragment 
             td 
-                | Request o instancję
+                | Session script + Session context 
             td 
-                | Zmiana desired capacity 
+                | User data 
         tr.fragment 
             td
-                | Synchronicznie 
+                | Single app mode
             td 
-                | Asynchronicznie
+                | Winlogon overwrite

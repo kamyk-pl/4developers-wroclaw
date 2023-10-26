@@ -210,13 +210,33 @@
         <div><img src="img/appstream.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
       <section id="g5-16" data-transition="none">
-        <h2 class="header">AppStream vs EC2</h2>
+        <h2 class="header">EC2</h2>
         <div>
-          <ul style="color:red;">
-            <li>Image builder vs EC2 AMI</li>
-            <li>Session script vs User data</li>
-            <li>Single app mode vs winlogon overwrite</li>
-          </ul>
+          <table>
+            <thead> 
+              <th>
+                 <svg class="w-6 h-6" height="40" width="40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="Arch_Amazon-App-Stream_32_svg__a"><stop stop-color="#055F4E" offset="0%"></stop><stop stop-color="#56C0A7" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M0 0h40v40H0z" fill="url(#Arch_Amazon-App-Stream_32_svg__a)"></path><path d="M21 20v12.35L7.769 20h13.23zm.699 13.958a.499.499 0 00.3-.458v-14a.5.5 0 00-.5-.5h-15a.5.5 0 00-.34.866l15 14a.5.5 0 00.54.092zM34.5 34a.504.504 0 01-.336-.129l-10.5-9.5.672-.742L34 32.374V7H7.707l9.647 9.646-.708.708-10.5-10.5A.5.5 0 016.5 6h28a.5.5 0 01.5.5v27a.499.499 0 01-.5.5z" fill="#FFF"></path></g></svg>&nbsp;AppStream </th>
+              <th>
+                 <svg class="w-6 h-6" height="40" width="40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="Arch_Amazon-EC2_32_svg__a"><stop stop-color="#C8511B" offset="0%"></stop><stop stop-color="#F90" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M0 0h40v40H0z" fill="url(#Arch_Amazon-EC2_32_svg__a)"></path><path d="M26.052 27L26 13.948 13 14v13.052L26.052 27zM27 14h2v1h-2v2h2v1h-2v2h2v1h-2v2h2v1h-2v2h2v1h-2v.052a.95.95 0 01-.948.948H26v2h-1v-2h-2v2h-1v-2h-2v2h-1v-2h-2v2h-1v-2h-2v2h-1v-2h-.052a.95.95 0 01-.948-.948V27h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-.052a.95.95 0 01.948-.948H13v-2h1v2h2v-2h1v2h2v-2h1v2h2v-2h1v2h2v-2h1v2h.052a.95.95 0 01.948.948V14zm-6 19H7V19h2v-1H7.062C6.477 18 6 18.477 6 19.062v13.876C6 33.523 6.477 34 7.062 34h13.877c.585 0 1.061-.477 1.061-1.062V31h-1v2zM34 7.062v13.876c0 .585-.476 1.062-1.061 1.062H30v-1h3V7H19v3h-1V7.062C18 6.477 18.477 6 19.062 6h13.877C33.524 6 34 6.477 34 7.062z" fill="#FFF"></path></g></svg>&nbsp;EC2 </th>
+            </thead>
+            <tr class="fragment"> 
+              <td>
+                 AppStream Image Builder</td>
+              <td>
+                 AMI from an instance</td>
+            </tr>
+            <tr class="fragment"> 
+              <td>
+                 Session script + Session context </td>
+              <td>
+                 User data </td>
+            </tr>
+            <tr class="fragment"> 
+              <td>Single app mode</td>
+              <td>
+                 Winlogon overwrite</td>
+            </tr>
+          </table>
         </div>
       </section>
       <section id="g5-17" data-transition="none">
@@ -226,10 +246,31 @@
       <section id="g5-18" data-transition="none">
         <h2 class="header">ASG vs AppStream</h2>
         <div>
-          <ul style="color:red;">
-            <li>Desired capacity</li>
-            <li>Asynchroniczność</li>
-          </ul>
+          <table>
+            <thead> 
+              <th>
+                 <svg class="w-6 h-6" height="40" width="40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="Arch_Amazon-App-Stream_32_svg__a"><stop stop-color="#055F4E" offset="0%"></stop><stop stop-color="#56C0A7" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M0 0h40v40H0z" fill="url(#Arch_Amazon-App-Stream_32_svg__a)"></path><path d="M21 20v12.35L7.769 20h13.23zm.699 13.958a.499.499 0 00.3-.458v-14a.5.5 0 00-.5-.5h-15a.5.5 0 00-.34.866l15 14a.5.5 0 00.54.092zM34.5 34a.504.504 0 01-.336-.129l-10.5-9.5.672-.742L34 32.374V7H7.707l9.647 9.646-.708.708-10.5-10.5A.5.5 0 016.5 6h28a.5.5 0 01.5.5v27a.499.499 0 01-.5.5z" fill="#FFF"></path></g></svg>&nbsp;AppStream </th>
+              <th>
+                 <svg class="w-6 h-6" height="40" width="40" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient x1="0%" y1="100%" x2="100%" y2="0%" id="Arch_Amazon-EC2-Auto-Scaling_32_svg__a"><stop stop-color="#C8511B" offset="0%"></stop><stop stop-color="#F90" offset="100%"></stop></linearGradient></defs><g fill="none" fill-rule="evenodd"><path d="M0 0h40v40H0z" fill="url(#Arch_Amazon-EC2-Auto-Scaling_32_svg__a)"></path><path d="M24 17.962v-1.524a.505.505 0 00-.5-.508h-7c-.275 0-.5.227-.5.508v7.113c0 .28.225.508.5.508h7c.275 0 .5-.227.5-.508v-5.589zm1-3.049h1v1.017h-1.092c.056.16.092.329.092.508v1.524h1v1.016h-1v2.033h1v1.016h-1v1.524c0 .179-.036.349-.092.508H26v1.017h-1v1.016h-1v-1.11a1.462 1.462 0 01-.5.094H22v1.016h-1v-1.016h-2v1.016h-1v-1.016h-1.5c-.176 0-.343-.037-.5-.094v1.11h-1v-1.016h-1v-1.017h1.092a1.529 1.529 0 01-.092-.508v-1.524h-1V21.01h1v-2.033h-1v-1.016h1v-1.524c0-.18.036-.349.092-.508H14v-1.017h1v-1.016h1v1.11c.157-.057.324-.094.5-.094H18v-1.016h1v1.016h2v-1.016h1v1.016h1.5c.176 0 .343.037.5.094v-1.11h1v1.016zm-4 16.923v-4.728h-1v4.728l-2.119-2.529-.762.66L20.5 34l3.381-4.033-.762-.66L21 31.837zM9.176 17.841l2.489 2.153H6v1.017h5.665l-2.489 2.153.648.774 3.971-3.435-3.971-3.436-.648.774zM34 19.994h-5.665l2.489-2.153-.648-.774-3.971 3.436 3.971 3.435.648-.774-2.489-2.153H34v-1.017zm-16.119-9.3l-.762-.66L20.5 6l3.381 4.034-.762.66L21 8.164v4.717h-1V8.165l-2.119 2.529z" fill="#FFF"></path></g></svg>&nbsp;Auto Scaling</th>
+            </thead>
+            <tr class="fragment"> 
+              <td>
+                 Pojedyncze instancje</td>
+              <td>
+                 Skalowanie jednakowych instancji </td>
+            </tr>
+            <tr class="fragment"> 
+              <td>
+                 Request o instancję</td>
+              <td>
+                 Zmiana desired capacity </td>
+            </tr>
+            <tr class="fragment"> 
+              <td>Synchronicznie </td>
+              <td>
+                 Asynchronicznie</td>
+            </tr>
+          </table>
         </div>
       </section>
       <section id="g5-19" data-transition="none">
