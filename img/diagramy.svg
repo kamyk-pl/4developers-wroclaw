@@ -9,7 +9,7 @@
    id="svg5"
    inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
    sodipodi:docname="diagramy.svg"
-   inkscape:export-filename="/home/kuba/bmw/4developers-wroclaw/img/url.png"
+   inkscape:export-filename="/home/kuba/bmw/4developers-wroclaw/img/timeout.png"
    inkscape:export-xdpi="300"
    inkscape:export-ydpi="300"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -29,15 +29,15 @@
      showgrid="true"
      showguides="false"
      inkscape:guide-bbox="true"
-     inkscape:zoom="1.0040916"
-     inkscape:cx="509.41566"
-     inkscape:cy="397.87206"
+     inkscape:zoom="4.0163665"
+     inkscape:cx="416.67014"
+     inkscape:cy="495.5972"
      inkscape:window-width="1920"
      inkscape:window-height="1136"
      inkscape:window-x="0"
      inkscape:window-y="27"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer9"
+     inkscape:current-layer="layer14"
      width="1000px"
      units="px"
      inkscape:snap-object-midpoints="false"
@@ -58,6 +58,52 @@
   </sodipodi:namedview>
   <defs
      id="defs2">
+    <linearGradient
+       id="linearGradient46069"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop46067" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient43211"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop43209" />
+    </linearGradient>
+    <marker
+       style="overflow:visible;"
+       id="marker42569"
+       refX="0.0"
+       refY="0.0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend"
+       inkscape:isstock="true">
+      <path
+         transform="scale(0.8) rotate(180) translate(12.5,0)"
+         style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         id="path1688" />
+    </marker>
+    <linearGradient
+       id="linearGradient42564"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop42562" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient41770"
+       inkscape:swatch="solid">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop41768" />
+    </linearGradient>
     <linearGradient
        id="linearGradient10766"
        inkscape:swatch="solid">
@@ -494,6 +540,33 @@
        y1="40"
        x2="40"
        y2="0" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10766"
+       id="linearGradient42566"
+       x1="30.88114"
+       y1="28.250118"
+       x2="284.19095"
+       y2="28.250118"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10766"
+       id="linearGradient43213"
+       x1="5.1197085"
+       y1="126.87533"
+       x2="95.620522"
+       y2="126.87533"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient10766"
+       id="linearGradient46071"
+       x1="55.283669"
+       y1="101.47981"
+       x2="89.52021"
+       y2="101.47981"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <g
      inkscape:groupmode="layer"
@@ -1662,10 +1735,10 @@
      inkscape:groupmode="layer"
      id="layer14"
      inkscape:label="timeout"
-     style="display:none">
+     style="display:inline">
     <g
        id="g10860"
-       transform="translate(-174.74282,-7.3220339)"
+       transform="translate(-167.22903,11.1988)"
        style="display:inline">
       <g
          id="g10858"
@@ -1689,8 +1762,34 @@
              sodipodi:role="line"
              id="tspan10854"
              x="43.177055"
-             y="572.28278">timeout-orders</tspan></text>
+             y="572.28278">timeout</tspan></text>
       </g>
     </g>
+    <path
+       style="fill:none;stroke:url(#linearGradient42566);stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#marker42569)"
+       d="M 284.09164,21.042236 C 247.90014,-2.4328637 54.590968,-5.9400887 32.682909,29.58014 26.296615,41.842892 49.013555,52.890962 54.652281,55.91631"
+       id="path41887"
+       sodipodi:nodetypes="ccc" />
+    <path
+       style="fill:none;stroke:url(#linearGradient43213);stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 97.960261,199.03745 C 62.901382,216.92066 35.374105,199.71143 24.523309,188.78652 12.405292,176.58573 6.6401277,152.67576 5.4746482,141.18409 3.6501857,123.19481 7.6075849,71.398506 20.607376,58.774465 33.696612,46.063564 52.147617,54.401854 52.147617,54.401854"
+       id="path43207"
+       sodipodi:nodetypes="csssc" />
+    <path
+       style="display:inline;fill:none;stroke:url(#linearGradient46071);stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 63.233971,78.440319 C 63.106285,128.44952 90.149497,127.11542 90.149497,127.11542"
+       id="path46065"
+       sodipodi:nodetypes="cc" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;display:inline;fill:#d72b6b;fill-opacity:1;stroke:none;stroke-width:0.264583"
+       x="39.670448"
+       y="37.630257"
+       id="text45950"><tspan
+         sodipodi:role="line"
+         id="tspan45948"
+         style="font-size:6.35px;text-align:center;text-anchor:middle;fill:#d72b6b;fill-opacity:1;stroke-width:0.264583"
+         x="39.670448"
+         y="37.630257">sqs</tspan></text>
   </g>
 </svg>
