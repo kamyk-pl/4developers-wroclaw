@@ -54,7 +54,6 @@ h2.moved-title{
   }
 }
 
-
 .love::before{
     content: url("https://cdn-assets-eu.frontify.com/s3/frontify-enterprise-files-eu/eyJwYXRoIjoiaXRlcmF0ZWNcL2FjY291bnRzXC9hYlwvNDAwMDczOFwvcHJvamVjdHNcLzhcL2Fzc2V0c1wvMjhcLzEyOTZcL2RlMTNiY2I4MWZjNTQ2MDlmMzlmZGQ4YjJmZGQ4YTRiLTE1OTk3MjYzODEuc3ZnIn0:iteratec:E4y6c7nTJMY7Ozo5aJsPWPR2fZHE7973Z-m-Us6rgCI?width=20");
     width: 200px;
@@ -87,4 +86,6 @@ h2.moved-title{
 }
 
 
- 
+.italics{
+  font-style: italic;
+}
