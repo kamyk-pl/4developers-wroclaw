@@ -1,7 +1,7 @@
 extends layout/layout.pug
 
 block vars
-  - var title = 'marzec2020'
+  - var title = 'marzec'
 
 
 
@@ -11,15 +11,19 @@ block title
 
 block content
 
-        ul
-            li(style="text-decoration: line-through;")
-                | Płonie Australia
-            li(style="text-decoration: line-through;")
-                | Wielka Brytania jeszcze (przez chwile) w UE
-            li.strong
-                | Odmieniamy COVID przez wszystkie przypadki
-            li(style="text-decoration: line-through;")
-                | Pracujemy z biur
+    ul.imggrid(style="margin: 0 0 0 20px;")
+            li.fragment
+                img(src="img/australia.png" alt="australia w ogniu" style="max-height: 220px;filter: grayscale(100%);")
+            li.fragment
+                img(src="img/brexit.png" alt="brexit" style="max-height: 220px;filter: grayscale(100%);")
 
+            li.fragment
+                 img(src="img/covid-bat.png" alt="covid" style="max-height: 220px")
+
+            li.fragment
+                img(src="img/office.png" alt="office" style="max-height: 220px;filter: grayscale(100%);")
+            //li.fragment(style="grid-column: 1/-1")
+            //    img(src="img/iteratec.png" alt="iteratec logo" style="max-height: 180px; margin-right: 40px")
+            //    img(src="img/new-project.png" alt="new project " style="max-height: 180px")
 
 
