@@ -13,3 +13,8 @@ ul.no-bullet li {
 .biggest{
     font-size: var(--font-size-700);
 }
+
+.smaller{
+    font-size: var(--font-size-400);
+
+}

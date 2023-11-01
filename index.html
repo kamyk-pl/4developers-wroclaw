@@ -12,10 +12,11 @@
     <link href="css/reveal-adj.css" rel="stylesheet">
     <link href="css/utils.css" rel="stylesheet">
     <link href="css/custom.css" rel="stylesheet">
-    <link href="css/examples.css" rel="stylesheet"><!-- Theme used for syntax highlighting of code -->
-    <link rel="stylesheet" href="css/atom-light.css" id="highlight-theme">
-    <script src="reveal/plugin/highlight/highlight.js"></script>
-  </head>
+    <link href="css/examples.css" rel="stylesheet">
+    <link href="css/kuba.css" rel="stylesheet">
+  </head><!-- Theme used for syntax highlighting of code -->
+  <link rel="stylesheet" href="css/atom-light.css" id="highlight-theme">
+  <script src="reveal/plugin/highlight/highlight.js"></script>
 </html>
 <body>
   <div class="reveal">
@@ -102,7 +103,7 @@
         <h2 class="header"> Klient</h2>
         <div>
           <div class="klient">
-            <ul class="imggrid" style="margin: 0 0 0 20px;">
+            <ul style="margin: 0 0 0 10px;">
               <li class="fragment">Producent samochodów</li>
               <li class="fragment">Dział projektowy</li>
               <li class="fragment">Praca na dedykowanych aplikacjach na platformach Unreal/VRED/Unity</li>
@@ -116,16 +117,26 @@
       <section id="projekt-4" data-transition="none">
         <h2 class="header">Projekt</h2>
         <div>
-          <ul>
-            <li class="fragment">Wiele źródeł danych</li>
-            <li class="fragment">Różne metody autoryzacji/autentykacji</li>
-            <li class="fragment">Różne API</li>
+          <ul class="imggrid">
+            <li>
+              <ul>
+                <li>Wiele źródeł danych</li>
+                <li>Różne metody autoryzacji/autentykacji</li>
+                <li>Różne API</li>
+              </ul>
+            </li>
+            <li><img src="img/balagan.png" alt="stam zastany" style="max-height: 245px"></li>
           </ul>
           <h3 class="fragment">Nasze zadanie : Posprzątać to</h3>
-          <ul>
-            <li class="fragment">spójne API</li>
-            <li class="fragment">spójne logowanie</li>
-            <li class="fragment">dodać cachowanie</li>
+          <ul class="imggrid fragment">
+            <li>
+              <ul>
+                <li>Spójne API</li>
+                <li>Jednolite logowanie</li>
+                <li>Cachowanie</li>
+              </ul>
+            </li>
+            <li><img src="img/porzadek.png" alt="stan docelowy" style="max-height: 245px"></li>
           </ul>
         </div>
       </section>
@@ -144,61 +155,91 @@
         <h2 class="header">nowe wyzwanie - HO</h2>
         <div>
           <h3> Zdalny Pulpit (RDP)</h3>
-          <ul>
-            <li class="fragment">out of the box (VPN)</li>
-            <li class="fragment">1 użytkownik 1 komputer - nowy pracownik nowy komputer</li>
-            <li class="fragment">a co jak komputer sie wyłączy</li>
-            <li class="fragment">nie rozwiązany problem kooperacji</li>
+          <ul class="imggrid">
+            <li>
+              <ul>
+                <li>out of the box (VPN)</li>
+                <!--li-->
+                <li>a co jak komputer sie wyłączy</li>
+                <li>1 użytkownik 1 komputer</li>
+                <li>nie rozwiązany problem kooperacji</li>
+              </ul>
+            </li>
+            <li><img src="img/rdp.jpeg" alt="rdp login screen" style="max-height: 280px"><img src="img/turnedoff.png" alt="windows shutting down" style="max-height: 280px"></li>
           </ul>
         </div>
       </section>
       <section id="historia-7" data-transition="none">
         <h2 class="header">AWS AppStream 2.0</h2>
         <div>
-          <ul>
-            <li class="fragment italics">'Secure, reliable, and scalable application streaming and low-cost virtual desktop service'</li>
-            <li class="fragment">usługa AWS pozwalająca na uruchomienie komputera i dostęp do niego przez przeglądarkę</li>
-            <li class="fragment">Dostęp przez WWW realizowany jest przez NiceDCV</li>
-            <li class="fragment">Pay per Use (1.5 Euro / h)</li>
-            <li class="fragment">Klient:<span class="italics"> 'Możecie stworzyć male POC i sprawdzić czy to działa'</span></li>
-            <li class="fragment">iteratec:<span class="italics"> 'będzie Pan zadowolony'</span></li>
-          </ul>
+          <div class="appstream"></div>
         </div>
       </section>
-      <section id="poc-8" data-transition="none">
+      <section id="historia-8" data-transition="none">
+        <h2 class="header">AWS AppStream 2.0</h2>
+        <div>
+          <div class="appstream opacity">
+            <ul class="fragment">
+              <!--li.italics-->
+              <!--    | 'Secure, reliable, and scalable application streaming and low-cost virtual desktop service'-->
+              <li>usługa AWS pozwalająca na uruchomienie komputera i dostęp do niego przez przeglądarkę</li>
+              <li>Dostęp przez WWW realizowany jest przez NiceDCV</li>
+              <li>Pay per Use (1.5 Euro / h)</li>
+              <li class="fragment">Klient:<span class="italics"> 'Możecie stworzyć male POC i sprawdzić czy to działa'</span></li>
+              <li class="fragment">iteratec:<span class="italics"> 'będzie Pan zadowolony'</span></li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <section id="poc-9" data-transition="none">
         <h2 class="header">POC</h2>
         <div><img src="img/schemat.png" alt="schemat projektu" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="poc / produkt-9" data-transition="none">
+      <section id="poc / produkt-10" data-transition="none">
         <h2 class="header">POC / produkt</h2>
         <div><img src="img/vue-node.drawio.png" alt="schemat technologie" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="produkt-10" data-transition="none">
+      <section id="produkt-11" data-transition="none">
         <h2 class="header">produkt</h2>
         <div><img src="img/szczegoly.drawio.png" alt="schemat szczegoly" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="sukces-11" data-transition="none">
+      <section id="sukces-12" data-transition="none">
         <h2 class="header">Sukces</h2>
         <div>
-          <ul>
-            <li class="fragment">POC -> Działający produkt</li>
-            <li class="fragment">Współdzielenie sesji</li>
-            <li class="fragment">Wsparcie dla Gogli VR</li>
-            <li class="fragment">Wiele więcej</li>
-          </ul>
+          <div class="success"></div>
         </div>
       </section>
-      <section id="every after-12" data-transition="none">
-        <h2 class="header"></h2>
-        <div><img src="img/and-they.jpg" alt="schemat technologie" style="max-height: 800px;max-width: 800px;"></div>
-      </section>
-      <section id="every after-13" data-transition="none">
-        <h2 class="header"></h2>
-        <div><img src="img/bad-character.png" alt="schemat technologie" style="max-height: 800px;max-width: 800px;">
-          <h2 class="fragment">G5</h2>
+      <section id="sukces-13" data-transition="none">
+        <h2 class="header">Sukces</h2>
+        <div>
+          <div class="success opacity">
+            <ul class="fragment">
+              <li>POC -> Działający produkt</li>
+              <li> Zadowoleni użytkownicy</li>
+              <li>Tylko ~ 2 minuty oczekiwania</li>
+              <li>Współdzielenie sesji</li>
+              <li>Wsparcie dla Gogli VR</li>
+              <li>Wiele więcej</li>
+            </ul>
+          </div>
         </div>
       </section>
-      <section id="g5-14" data-transition="none">
+      <section id="every after-14" data-transition="none">
+        <h2 class="header">Sukces</h2>
+        <div>
+          <div class="happily"></div>
+          <!--img(src="img/" alt="schemat technologie" style="max-height: 800px;max-width: 800px;")-->
+        </div>
+      </section>
+      <section id="every after-15" data-transition="none">
+        <h2 class="header">Sukces ... ale</h2>
+        <div>
+          <div class="happily almost">
+            <h2 class="fragment">G5 - instance type</h2>
+          </div>
+        </div>
+      </section>
+      <section id="g5-16" data-transition="none">
         <h2 class="header">g5 vs g4dn</h2>
         <div>
           <ul>
@@ -210,125 +251,176 @@
           </ul>
         </div>
       </section>
-      <section id="g5-15" data-transition="none">
-        <h2 class="header">AppStream 2.0</h2>
+      <section id="g5-17" data-transition="none">
+        <h2 class="header">Punkt wyjścia</h2>
         <div><img src="img/appstream.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-16" data-transition="none">
-        <h2 class="header">EC2</h2>
-        <div>
-          <table>
-            <thead> 
-              <th>
-                 <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="0%" x2="100%" y1="100%" y2="0%"><stop offset="0" stop-color="#055f4e"/><stop offset="1" stop-color="#56c0a7"/></linearGradient><g fill="none" fill-rule="evenodd"><path d="m0 0h40v40h-40z" fill="url(#a)"/><path d="m21 20v12.35l-13.231-12.35h13.23zm.699 13.958a.499.499 0 0 0 .3-.458v-14a.5.5 0 0 0 -.5-.5h-15a.5.5 0 0 0 -.34.866l15 14a.5.5 0 0 0 .54.092zm12.801.042a.504.504 0 0 1 -.336-.129l-10.5-9.5.672-.742 9.664 8.745v-25.374h-26.293l9.647 9.646-.708.708-10.5-10.5a.5.5 0 0 1 .354-.854h28a.5.5 0 0 1 .5.5v27a.499.499 0 0 1 -.5.5z" fill="#fff"/></g></svg>&nbsp;AppStream </th>
-              <th>
-                 <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="0%" x2="100%" y1="100%" y2="0%"><stop offset="0" stop-color="#c8511b"/><stop offset="1" stop-color="#f90"/></linearGradient><g fill="none" fill-rule="evenodd"><path d="m0 0h40v40h-40z" fill="url(#a)"/><path d="m26.052 27-.052-13.052-13 .052v13.052zm.948-13h2v1h-2v2h2v1h-2v2h2v1h-2v2h2v1h-2v2h2v1h-2v.052a.95.95 0 0 1 -.948.948h-.052v2h-1v-2h-2v2h-1v-2h-2v2h-1v-2h-2v2h-1v-2h-2v2h-1v-2h-.052a.95.95 0 0 1 -.948-.948v-.052h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-2h-2v-1h2v-.052a.95.95 0 0 1 .948-.948h.052v-2h1v2h2v-2h1v2h2v-2h1v2h2v-2h1v2h2v-2h1v2h.052a.95.95 0 0 1 .948.948zm-6 19h-14v-14h2v-1h-1.938c-.585 0-1.062.477-1.062 1.062v13.876c0 .585.477 1.062 1.062 1.062h13.877c.585 0 1.061-.477 1.061-1.062v-1.938h-1zm13-25.938v13.876c0 .585-.476 1.062-1.061 1.062h-2.939v-1h3v-14h-14v3h-1v-2.938c0-.585.477-1.062 1.062-1.062h13.877c.585 0 1.061.477 1.061 1.062z" fill="#fff"/></g></svg>&nbsp;EC2 </th>
-            </thead>
-            <tr class="fragment"> 
-              <td>
-                 AppStream Image Builder</td>
-              <td>
-                 AMI from an instance</td>
-            </tr>
-            <tr class="fragment"> 
-              <td>
-                 Session script + Session context </td>
-              <td>
-                 User data </td>
-            </tr>
-            <tr class="fragment"> 
-              <td>Single app mode</td>
-              <td>
-                 Winlogon overwrite</td>
-            </tr>
-          </table>
-        </div>
-      </section>
-      <section id="g5-17" data-transition="none">
-        <h2 class="header">EC2</h2>
-        <div><img src="img/ec2.png" style="max-height: 800px;max-width: 800px;"></div>
-      </section>
       <section id="g5-18" data-transition="none">
-        <h2 class="header">ASG vs AppStream</h2>
+        <h2 class="header">Tworzenie obrazu</h2>
         <div>
-          <table>
-            <thead> 
-              <th>
-                 <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="0%" x2="100%" y1="100%" y2="0%"><stop offset="0" stop-color="#055f4e"/><stop offset="1" stop-color="#56c0a7"/></linearGradient><g fill="none" fill-rule="evenodd"><path d="m0 0h40v40h-40z" fill="url(#a)"/><path d="m21 20v12.35l-13.231-12.35h13.23zm.699 13.958a.499.499 0 0 0 .3-.458v-14a.5.5 0 0 0 -.5-.5h-15a.5.5 0 0 0 -.34.866l15 14a.5.5 0 0 0 .54.092zm12.801.042a.504.504 0 0 1 -.336-.129l-10.5-9.5.672-.742 9.664 8.745v-25.374h-26.293l9.647 9.646-.708.708-10.5-10.5a.5.5 0 0 1 .354-.854h28a.5.5 0 0 1 .5.5v27a.499.499 0 0 1 -.5.5z" fill="#fff"/></g></svg>&nbsp;AppStream </th>
-              <th>
-                 <svg height="40" width="40" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><linearGradient id="a" x1="0%" x2="100%" y1="100%" y2="0%"><stop offset="0" stop-color="#c8511b"/><stop offset="1" stop-color="#f90"/></linearGradient><g fill="none" fill-rule="evenodd"><path d="m0 0h40v40h-40z" fill="url(#a)"/><path d="m24 17.962v-1.524a.505.505 0 0 0 -.5-.508h-7c-.275 0-.5.227-.5.508v7.113c0 .28.225.508.5.508h7c.275 0 .5-.227.5-.508zm1-3.049h1v1.017h-1.092c.056.16.092.329.092.508v1.524h1v1.016h-1v2.033h1v1.016h-1v1.524c0 .179-.036.349-.092.508h1.092v1.017h-1v1.016h-1v-1.11a1.462 1.462 0 0 1 -.5.094h-1.5v1.016h-1v-1.016h-2v1.016h-1v-1.016h-1.5c-.176 0-.343-.037-.5-.094v1.11h-1v-1.016h-1v-1.017h1.092a1.529 1.529 0 0 1 -.092-.508v-1.524h-1v-1.017h1v-2.033h-1v-1.016h1v-1.524c0-.18.036-.349.092-.508h-1.092v-1.017h1v-1.016h1v1.11c.157-.057.324-.094.5-.094h1.5v-1.016h1v1.016h2v-1.016h1v1.016h1.5c.176 0 .343.037.5.094v-1.11h1v1.016zm-4 16.923v-4.728h-1v4.728l-2.119-2.529-.762.66 3.381 4.033 3.381-4.033-.762-.66-2.119 2.53zm-11.824-13.995 2.489 2.153h-5.665v1.017h5.665l-2.489 2.153.648.774 3.971-3.435-3.971-3.436zm24.824 2.153h-5.665l2.489-2.153-.648-.774-3.971 3.436 3.971 3.435.648-.774-2.489-2.153h5.665zm-16.119-9.3-.762-.66 3.381-4.034 3.381 4.034-.762.66-2.119-2.53v4.717h-1v-4.716z" fill="#fff"/></g></svg>&nbsp;Auto Scaling</th>
-            </thead>
-            <tr class="fragment"> 
-              <td>
-                 Pojedyncze instancje</td>
-              <td>
-                 Skalowanie jednakowych instancji </td>
-            </tr>
-            <tr class="fragment"> 
-              <td>
-                 Request o instancję</td>
-              <td>
-                 Zmiana desired capacity </td>
-            </tr>
-            <tr class="fragment"> 
-              <td>Synchronicznie </td>
-              <td>
-                 Asynchronicznie</td>
-            </tr>
-          </table>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment">Dedykowany<i> image builder</i></div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/ec2.svg"><br>&nbsp;EC2</div>
+              <div class="fragment">Obraz z instancji</div>
+            </div>
+          </div>
         </div>
       </section>
       <section id="g5-19" data-transition="none">
+        <h2 class="header">Streaming</h2>
+        <div>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment">Działa</div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/ec2.svg"><br>&nbsp;EC2</div>
+              <div class="fragment">Serwer NICE DCV</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="g5-20" data-transition="none">
+        <h2 class="header">Przygotowanie instancji</h2>
+        <div>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment"><i>Session script + Session context</i></div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/ec2.svg"><br>&nbsp;EC2</div>
+              <div class="fragment"><i>User data</i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="g5-21" data-transition="none">
+        <h2 class="header">Tryb aplikacji</h2>
+        <div>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment">Działa</div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/ec2.svg"><br>&nbsp;EC2</div>
+              <div class="fragment">Nadpisanie winlogona</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="g5-22" data-transition="none">
+        <h2 class="header">EBS</h2>
+        <div><img src="img/always-icons.jpg" style="max-height: 550px;max-width: 800px;"></div>
+      </section>
+      <section id="g5-23" data-transition="none">
+        <h2 class="header">EBS</h2>
+        <div>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment">Działa</div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/ec2.svg"><br>&nbsp;EC2</div>
+              <div class="fragment">Wymaga nawodnienia</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="g5-24" data-transition="none">
+        <h2 class="header">Warm pool</h2>
+        <div><img src="img/warmpool.jpeg" style="max-height: 550px;max-width: 800px;"></div>
+      </section>
+      <section id="g5-25" data-transition="none">
+        <h2 class="header">Auto Scaling</h2>
+        <div><img src="img/autoscaling.png" style="max-height: 550px;max-width: 800px;"></div>
+      </section>
+      <section id="g5-26" data-transition="none">
+        <h2 class="header">Zamawianie instancji</h2>
+        <div>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment">"Poproszę instancję!"</div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/asg.svg"><br>&nbsp;Auto Scaling</div>
+              <div class="fragment">desired-capacity=5</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="g5-27" data-transition="none">
+        <h2 class="header">Otrzymywanie instancji</h2>
+        <div>
+          <div class="comparison">
+            <div class="col">
+              <div class="aws-service"><img src="img/appstream.svg"><br>&nbsp;AppStream</div>
+              <div class="fragment">"Oto twoja instancja."</div>
+            </div>
+            <div class="col">
+              <div class="aws-service"><img src="img/asg.svg"><br>&nbsp;Auto Scaling</div>
+              <div class="fragment">"Postaram się."</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="g5-28" data-transition="none">
         <h2 class="header">Fleet Mgmt</h2>
         <div><img src="img/fleetmgmt.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-20" data-transition="none">
+      <section id="g5-29" data-transition="none">
         <h2 class="header">Fleet Mgmt</h2>
         <div><img src="img/fleetmgmt-sqs.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-21" data-transition="none">
+      <section id="g5-30" data-transition="none">
         <h2 class="header">Fleet mgmt</h2>
         <div><img src="img/orders.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-22" data-transition="none">
+      <section id="g5-31" data-transition="none">
         <h2 class="header">Event Bridge</h2>
         <div><img src="img/eventbridge.png" style="max-height: 800px;max-width: 800px;">
           <div class="fragment" style="border: 1px solid black;position: relative;top: -614px;width: 300px;">potencialne pole na jakis opis biezacego problemu</div>
         </div>
       </section>
-      <section id="g5-23" data-transition="none">
+      <section id="g5-32" data-transition="none">
         <h2 class="header">Event Bridge</h2>
         <div><img src="img/eventbridge-sqs.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-24" data-transition="none">
+      <section id="g5-33" data-transition="none">
         <h2 class="header">Event Log</h2>
         <div><img src="img/eventlog.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-25" data-transition="none">
+      <section id="g5-34" data-transition="none">
         <h2 class="header">Event log</h2>
         <div><img src="img/eventlog2.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-26" data-transition="none">
+      <section id="g5-35" data-transition="none">
         <h2 class="header">Url Service</h2>
         <div><img src="img/url.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-27" data-transition="none">
+      <section id="g5-36" data-transition="none">
         <h2 class="header">Timeout Service</h2>
         <div><img src="img/timeout.png" style="max-height: 800px;max-width: 800px;"></div>
       </section>
-      <section id="g5-28" data-transition="none">
-        <h2 class="header">Prod release?</h2>
-        <div><img class="fragment" src="img/cloudxr-mem.jpg" style="max-height: 550px;max-width: 800px;"></div>
+      <section id="g5-37" data-transition="none">
+        <h2 class="header">Co zyskaliśmy?</h2>
+        <div>
+          <ul>
+            <li class="fragment">G5</li>
+            <li class="fragment">Szybsze i sprawniejsze przygotowanie instancji</li>
+            <li class="fragment">Większa kontrola i elastyczność</li>
+          </ul>
+        </div>
       </section>
-      <section id="g5-29" data-transition="none">
-        <h2 class="header">EBS? Nie słyszałem</h2>
-        <div><img class="fragment" src="img/hydration.jpeg" style="max-height: 550px;max-width: 800px;"></div>
-      </section>
-      <section id="g5-30" data-transition="none">
-        <h2 class="header">Prod release</h2>
-        <div><img src="img/di-caprio.jpg" style="max-height: 550px;max-width: 800px;"></div>
-      </section>
-      <section id="g5-31" data-transition="none">
+      <section id="g5-38" data-transition="none">
         <h2 class="header">Co dalej?</h2>
         <div>
           <ul>
@@ -448,8 +540,7 @@
   
   -->
   <div class="frame space" style="display:none"><img src="img/iteratec.png" alt="">
-    <h3>
-       Czasem warto wyważać otwarte drzwi, czyli jak napisaliśmy sobie lepszą implementację produktu AWS  - Jakub Dymon,  Paweł Kamiński</h3>
+    <h3>Czasem warto wyważać otwarte drzwi, czyli jak napisaliśmy sobie lepszą implementację produktu AWS  - Jakub Dymon,  Paweł Kamiński</h3>
     <h3>4Developers Wroclaw 2023</h3>
   </div>
   <script src="reveal/reveal.js"></script>
@@ -459,12 +550,12 @@
             const j = Math.floor(Math.random() * (i + 1));
             [array[i], array[j]] = [array[j], array[i]];
         }
-        
+    
     }
     
      const backgroundColors = ['magenta','yellow','mint', 'white']
     
-      
+    
   </script>
   <script>
     Reveal.initialize({
