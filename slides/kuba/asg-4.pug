@@ -1,0 +1,25 @@
+extends ../layout/layout
+
+block vars
+
+block title
+
+    | Otrzymywanie instancji
+
+block content
+
+    .comparison
+        div.col
+            div.aws-service
+                img(src="img/appstream.svg")
+                br
+                | &nbsp;AppStream
+            div.fragment
+                | "Oto twoja instancja."
+        div.col
+            div.aws-service
+                img(src="img/asg.svg")
+                br
+                | &nbsp;Auto Scaling
+            div.fragment
+                | "Postaram się."

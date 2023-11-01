@@ -6,7 +6,7 @@
 
 .comparison .col  {
     flex: 1;
-    padding: 2em;
+    padding: 1em;
 }
 
 .comparison .col .aws-service {
