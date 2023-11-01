@@ -1,0 +1,19 @@
+.comparison {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+}
+
+.comparison .col  {
+    flex: 1;
+    padding: 2em;
+}
+
+.comparison .col .aws-service {
+    margin-bottom: 50%;
+}
+
+.comparison .col .aws-service img {
+    width: 80px;
+    height: auto;
+}

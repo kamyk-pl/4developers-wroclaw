@@ -14,13 +14,14 @@ html(lang="en")
         link(href='css/utils.css', rel='stylesheet')
         link(href='css/custom.css', rel='stylesheet')
         link(href='css/examples.css', rel='stylesheet')
-        <!-- Theme used for syntax highlighting of code -->
+        link(href='css/kuba.css', rel='stylesheet')
+    <!-- Theme used for syntax highlighting of code -->
         link(rel="stylesheet" href="css/atom-light.css" id="highlight-theme")
         script(src="reveal/plugin/highlight/highlight.js")
 
 -var counter = 0
 body
-        
+
     .reveal
         .slides
             include ./slides/title.pug
@@ -40,7 +41,12 @@ body
             include ./slides/g5.pug
 
             include ./slides/kuba/appstream.pug
-            include ./slides/kuba/appstream-ec2.pug
+            include ./slides/kuba/appstream-ec2-1.pug
+            include ./slides/kuba/appstream-ec2-2.pug
+            include ./slides/kuba/appstream-ec2-3.pug
+            include ./slides/kuba/appstream-ec2-4.pug
+            include ./slides/kuba/ebs.pug
+            include ./slides/kuba/appstream-ec2-5.pug
             include ./slides/kuba/ec2.pug
             include ./slides/kuba/asg.pug
             include ./slides/kuba/fleetmgmt.pug
@@ -53,7 +59,6 @@ body
             include ./slides/kuba/url.pug
             include ./slides/kuba/timeout.pug
             include ./slides/kuba/prodrelease.pug
-            include ./slides/kuba/ebs.pug
             include ./slides/kuba/prodrelease2.pug
             //- include ./slides/kuba/vred.pug
             //- include ./slides/kuba/asgconfigs.pug
@@ -163,10 +168,10 @@ body
             //include slides/css/summary
             ////- include ./slides/demo.pug
             //include slides/css/theend
- 
+
     .frame.space(style="display:none")
         img(src="img/iteratec.png", alt="")
-        h3 
+        h3
              | Czasem warto wyważać otwarte drzwi, czyli jak napisaliśmy sobie lepszą implementację produktu AWS  - Jakub Dymon,  Paweł Kamiński
         h3
          | 4Developers Wroclaw 2023
@@ -179,12 +184,12 @@ body
                 const j = Math.floor(Math.random() * (i + 1));
                 [array[i], array[j]] = [array[j], array[i]];
             }
-            
+
         }
 
          const backgroundColors = ['magenta','yellow','mint', 'white']
 
-          
+
     script.
         Reveal.initialize({
              controls: false,
