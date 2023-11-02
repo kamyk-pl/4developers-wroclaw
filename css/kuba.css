@@ -29,8 +29,8 @@
 
 .diagram img {
     position: absolute;
-    max-width: 100%;
-    height: auto;
+    max-width: 800px !important;
+    max-height: 550px !important;
 }
 
 .diagram img:not(:first-child) {
@@ -41,5 +41,5 @@
 }
 
 .diagram img.overlay {
-    opacity: .6;
+    opacity: .75;
 }

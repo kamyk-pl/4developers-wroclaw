@@ -105,7 +105,8 @@
     <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient49719" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
     <linearGradient inkscape:collect="always" xlink:href="#linearGradient10766" id="linearGradient50877" x1="41.828209" y1="116.24811" x2="63.362431" y2="116.24811" gradientUnits="userSpaceOnUse"/>
   </defs>
-  <g inkscape:groupmode="layer" id="layer3" inkscape:label="overlay">
-    <rect style="fill:#ffffff;fill-opacity:0.99507749;stroke-width:0.365001" id="rect2826" width="340.31216" height="262.23679" x="-13.203436" y="-9.6573982"/>
+  <g inkscape:groupmode="layer" id="layer17" inkscape:label="events orders" style="display:inline">
+    <path style="display:inline;fill:#ff00ff;stroke:url(#linearGradient251847);stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)" d="M 39.051986,127 H 93.094542" id="path252117" sodipodi:nodetypes="cc"/>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;display:inline;fill:#d72b6b;fill-opacity:1;stroke:none;stroke-width:0.264583" x="66.410507" y="124.48353" id="text252121"><tspan sodipodi:role="line" id="tspan252119" style="font-size:6.35px;text-align:center;text-anchor:middle;fill:#d72b6b;fill-opacity:1;stroke-width:0.264583" x="66.410507" y="124.48353">sqs</tspan></text>
   </g>
   </svg>
