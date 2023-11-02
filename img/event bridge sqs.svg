@@ -105,15 +105,8 @@
     <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient49719" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
     <linearGradient inkscape:collect="always" xlink:href="#linearGradient10766" id="linearGradient50877" x1="41.828209" y1="116.24811" x2="63.362431" y2="116.24811" gradientUnits="userSpaceOnUse"/>
   </defs>
-  <g inkscape:groupmode="layer" id="layer2" inkscape:label="appstream" style="display:inline;mix-blend-mode:normal">
-    <g id="g42023" transform="matrix(0.26458333,0,0,0.26458333,47.165566,60.347513)" style="display:inline;fill:none;fill-rule:evenodd">
-      <g id="g112059" transform="translate(1028.4744,-287.72304)">
-        <g id="g10476" transform="translate(-116.50467,419.05329)">
-          <path d="M -0.59656004,82.947658 H 39.40344 V 122.94766 H -0.59656004 Z" fill="url(#Arch_Amazon-App-Stream_32_svg__a)" id="path5752" style="fill:url(#linearGradient5762)"/>
-          <path d="m 20.40344,102.94766 v 12.35 l -13.231,-12.35 h 13.23 z m 0.699,13.958 a 0.499,0.499 0 0 0 0.3,-0.458 v -14 a 0.5,0.5 0 0 0 -0.5,-0.5 h -15 a 0.5,0.5 0 0 0 -0.34,0.866 l 15,14 a 0.5,0.5 0 0 0 0.54,0.092 z m 12.801,0.042 a 0.504,0.504 0 0 1 -0.336,-0.129 l -10.5,-9.5 0.672,-0.742 9.664,8.745 V 89.947658 h -26.293 l 9.647,9.646 -0.708,0.708002 -10.5,-10.500002 a 0.5,0.5 0 0 1 0.354,-0.854 h 28 a 0.5,0.5 0 0 1 0.5,0.5 v 27.000002 a 0.499,0.499 0 0 1 -0.5,0.5 z" fill="#ffffff" id="path5754"/>
-        </g>
-        <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="-97.101227" y="572.28278" id="text41969"><tspan sodipodi:role="line" id="tspan41967" x="-97.101227" y="572.28278">appstream</tspan></text>
-      </g>
-    </g>
+  <g inkscape:groupmode="layer" id="layer12" inkscape:label="event bridge sqs" style="display:inline">
+    <path style="display:inline;fill:none;stroke:url(#linearGradient251839);stroke-width:0.365;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Arrow1Lend)" d="M 289.04748,46.110616 V 111.93078" id="path251830" sodipodi:nodetypes="cc"/>
+    <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:6.35px;line-height:1.25;font-family:sans-serif;display:inline;fill:#d72b6b;fill-opacity:1;stroke:none;stroke-width:0.264583" x="297.90372" y="80.49276" id="text251851"><tspan sodipodi:role="line" id="tspan251849" style="font-size:6.35px;text-align:center;text-anchor:middle;fill:#d72b6b;fill-opacity:1;stroke-width:0.264583" x="297.90372" y="80.49276">sqs</tspan></text>
   </g>
   </svg>

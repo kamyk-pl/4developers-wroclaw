@@ -17,3 +17,29 @@
     width: 80px;
     height: auto;
 }
+
+.diagram {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.diagram img {
+    position: absolute;
+    max-width: 100%;
+    height: auto;
+}
+
+.diagram img:not(:first-child) {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.diagram img.overlay {
+    opacity: .6;
+}
