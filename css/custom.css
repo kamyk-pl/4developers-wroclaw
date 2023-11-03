@@ -12,6 +12,10 @@
   padding: 0;
 }
 
+.reveal ul.imggrid  li{
+  padding-bottom: 2vh;
+
+}
 
 .italics{
   font-style: italic;
@@ -32,7 +36,7 @@
 
 .klient li{
   color: black;
- padding-bottom: 5vh;
+ padding-bottom: 2vh;
   list-style-type: square;
 
   /*color: white;*/
@@ -41,7 +45,7 @@
 .appstream::before{
   background-image: url('../img/aws-appstream.png');
   background-size: cover;
-  /*background-position: center;*/
+  background-position: 20% 0%;
   content: "";
   position: absolute;
   top: 80px;
@@ -54,10 +58,16 @@
   opacity: 0.15;
 }
 
+.appstream li{
+  padding-bottom: 2vh;
+  list-style-type: square;
+}
+
+
 .success::before{
   background-image: url('../img/success.png');
   background-size: cover;
-  /*background-position: center;*/
+  background-position: center;
   content: "";
   position: absolute;
   top: 80px;
@@ -70,6 +80,10 @@
   opacity: 0.15;
 }
 
+.success  li{
+  padding-bottom: 2vh;
+  list-style-type: square;
+}
 
 .happily::before{
   background-image: url('../img/happily.png');
@@ -92,4 +106,10 @@
   margin-top: 90px;
   padding: 30px 0;
   background-color: black;
+}
+
+.g5 li{
+  padding-bottom: 2vh;
+  list-style-type: square;
+
 }
