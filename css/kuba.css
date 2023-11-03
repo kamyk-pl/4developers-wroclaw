@@ -1,16 +1,17 @@
 .comparison {
     display: flex;
-    height: 600px;
     justify-content: center;
+    align-items: center;
+    height: 600px;
 }
 
 .comparison .col  {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
     flex: 1;
+    height: 400px;
     padding: 1em;
-}
-
-.comparison .col .aws-service {
-    margin-bottom: 50%;
 }
 
 .comparison .col .aws-service img {
@@ -57,6 +58,7 @@
 .bio img {
     max-height: 300px !important;
     max-width: 500px !important;
+    border-radius: 25px;
 }
 
 .bio-row-start {
