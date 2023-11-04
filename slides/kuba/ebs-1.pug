@@ -1,4 +1,4 @@
-extends ../layout/layout
+extends ../layout/layout-ec2
 
 block vars
 
@@ -6,20 +6,10 @@ block title
 
     | Steam VR
 
-block content
+block appstream
 
-    .comparison
-        div.col
-            div.aws-service
-                img(src="img/appstream-icon.svg")
-                br
-                | AppStream
-            div
-                | Działa
-        div.col
-            div.aws-service
-                img(src="img/ec2.svg")
-                br
-                | EC2
-            div.fragment
-                img(src="img/kritischer-fehler.png" style="max-height: 200px;max-width: 300px;")
+    | Działa
+
+block ec2
+
+    img(src="img/kritischer-fehler.png" style="max-height: 200px;max-width: 300px;")

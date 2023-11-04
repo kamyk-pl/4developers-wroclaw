@@ -1,4 +1,4 @@
-extends ../layout/layout
+extends ../layout/layout-ec2
 
 block vars
 
@@ -6,20 +6,10 @@ block title
 
     | Streaming
 
-block content
+block appstream
 
-    .comparison
-        div.col
-            div.aws-service
-                img(src="img/appstream-icon.svg")
-                br
-                | AppStream
-            div
-                | Działa
-        div.col
-            div.aws-service
-                img(src="img/ec2.svg")
-                br
-                | EC2
-            div.fragment
-                | Serwer NICE DCV
+    | Działa
+
+block ec2
+
+    | Serwer NICE DCV

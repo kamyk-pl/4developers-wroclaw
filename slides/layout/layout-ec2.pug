@@ -1,0 +1,23 @@
+- var transition= "none"
+block vars
+- var pageId = title+ "-"+  counter++
+section(id= pageId, data-transition=transition)
+  h2.header
+    block title
+  div.comparison
+    div.col
+      div.aws-service
+        img(src="img/appstream-icon.svg")
+        | AppStream
+      div.fragment
+        block appstream
+    div.col
+      div.aws-service
+        img(src="img/ec2.svg")
+        | EC2
+      div.fragment
+        block ec2
+
+
+
+

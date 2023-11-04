@@ -1,4 +1,4 @@
-extends ../layout/layout
+extends ../layout/layout-ec2
 
 block vars
 
@@ -6,22 +6,11 @@ block title
 
     | Przygotowanie instancji
 
-block content
+block appstream
 
-    .comparison
-        div.col
-            div.aws-service
-                img(src="img/appstream-icon.svg")
-                br
-                | AppStream
-            div.fragment
-                i
-                    | Session script + Session context
-        div.col
-            div.aws-service
-                img(src="img/ec2.svg")
-                br
-                | EC2
-            div.fragment
-                i
-                    | User data
+    i
+        | Session script + Session context
+
+block ec2
+    i
+        | User data

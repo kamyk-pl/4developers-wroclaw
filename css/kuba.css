@@ -8,10 +8,18 @@
 .comparison .col  {
     display: flex;
     flex-direction: column;
-    gap: 100px;
+    justify-content: center;
     flex: 1;
-    height: 400px;
-    padding: 1em;
+    height: 100%;
+}
+
+.comparison .col div {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 200px;
 }
 
 .comparison .col .aws-service img {
