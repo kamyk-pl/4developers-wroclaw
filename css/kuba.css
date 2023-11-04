@@ -94,3 +94,11 @@
     max-height: 50px !important;
     max-width: 100px !important;
 }
+
+section.no-title-centered {
+    width: 100%;
+    height: 100%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+}
