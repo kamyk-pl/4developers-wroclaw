@@ -1,4 +1,4 @@
-extends ../layout/layout
+extends ../layout/layout-asg
 
 block vars
 
@@ -6,20 +6,10 @@ block title
 
     | Zamawianie instancji
 
-block content
+block appstream
 
-    .comparison
-        div.col
-            div.aws-service
-                img(src="img/appstream.svg")
-                br
-                | &nbsp;AppStream
-            div.fragment
-                | "Poproszę instancję!"
-        div.col
-            div.aws-service
-                img(src="img/asg.svg")
-                br
-                | &nbsp;Auto Scaling
-            div.fragment
-                | desired-capacity=5
+    | "Poproszę instancję!"
+
+block autoscaling
+
+    | desired-capacity=5

@@ -1,4 +1,4 @@
-extends ../layout/layout
+extends ../layout/layout-ec2
 
 block vars
 
@@ -6,22 +6,12 @@ block title
 
     | Tworzenie obrazu
 
-block content
+block appstream
 
-    .comparison
-        div.col
-            div.aws-service
-                img(src="img/appstream.svg")
-                br
-                | &nbsp;AppStream
-            div.fragment
-                | Dedykowany
-                i
-                    |  image builder
-        div.col
-            div.aws-service
-                img(src="img/ec2.svg")
-                br
-                | &nbsp;EC2
-            div.fragment
-                | Obraz z instancji
+    | Dedykowany
+    i
+        |  image builder
+
+block ec2
+
+    | Obraz z instancji

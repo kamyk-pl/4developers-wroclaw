@@ -1,0 +1,152 @@
+<!-- Created with Inkscape (http://www.inkscape.org/) --><svg xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 317.5 238.125" version="1.1" id="svg5" inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)" sodipodi:docname="diagramy.tar" inkscape:export-filename="/home/kuba/bmw/4developers-wroclaw/img/timeout.png" inkscape:export-xdpi="300" inkscape:export-ydpi="300">
+  <sodipodi:namedview id="namedview7" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageshadow="2" inkscape:pageopacity="0.0" inkscape:pagecheckerboard="0" inkscape:document-units="mm" showgrid="true" showguides="false" inkscape:guide-bbox="true" inkscape:zoom="0.5020458" inkscape:cx="542.77916" inkscape:cy="408.32928" inkscape:window-width="1920" inkscape:window-height="1043" inkscape:window-x="1920" inkscape:window-y="0" inkscape:window-maximized="1" inkscape:current-layer="layer17" width="1000px" units="px" inkscape:snap-object-midpoints="false" inkscape:snap-others="true" inkscape:snap-nodes="false" inkscape:snap-page="false" inkscape:snap-global="true" inkscape:snap-bbox="true" inkscape:snap-bbox-midpoints="true" inkscape:snap-center="true">
+    <inkscape:grid type="xygrid" id="grid163600" spacingx="7.9375" spacingy="7.9375" dotted="false" empspacing="4"/>
+  </sodipodi:namedview>
+  <defs id="defs2">
+    <linearGradient id="linearGradient50875" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop50873"/>
+    </linearGradient>
+    <linearGradient id="linearGradient46069" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop46067"/>
+    </linearGradient>
+    <linearGradient id="linearGradient43211" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop43209"/>
+    </linearGradient>
+    <marker style="overflow:visible;" id="marker42569" refX="0.0" refY="0.0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:isstock="true">
+      <path transform="scale(0.8) rotate(180) translate(12.5,0)" style="fill-rule:evenodd;fill:context-stroke;stroke:context-stroke;stroke-width:1.0pt;" d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z " id="path1688"/>
+    </marker>
+    <linearGradient id="linearGradient42564" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop42562"/>
+    </linearGradient>
+    <linearGradient id="linearGradient41770" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop41768"/>
+    </linearGradient>
+    <linearGradient id="linearGradient10766" inkscape:swatch="solid">
+      <stop style="stop-color:#d72b6b;stop-opacity:1;" offset="0" id="stop10764"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3775" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop3773"/>
+    </linearGradient>
+    <linearGradient id="linearGradient3508" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop3506"/>
+    </linearGradient>
+    <linearGradient id="linearGradient2576" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop2574"/>
+    </linearGradient>
+    <linearGradient id="linearGradient1681" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop1679"/>
+    </linearGradient>
+    <linearGradient id="linearGradient258279" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop258277"/>
+    </linearGradient>
+    <linearGradient id="linearGradient251843" inkscape:swatch="solid">
+      <stop style="stop-color:#d72b6b;stop-opacity:1;" offset="0" id="stop251841"/>
+    </linearGradient>
+    <linearGradient id="linearGradient251837" inkscape:swatch="solid">
+      <stop style="stop-color:#000000;stop-opacity:1;" offset="0" id="stop251835"/>
+    </linearGradient>
+    <marker style="overflow:visible" id="Arrow1Lend" refX="0" refY="0" orient="auto" inkscape:stockid="Arrow1Lend" inkscape:isstock="true">
+      <path transform="matrix(-0.8,0,0,-0.8,-10,0)" style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt" d="M 0,0 5,-5 -12.5,0 5,5 Z" id="path124459"/>
+    </marker>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_Amazon-App-Stream_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#055F4E" offset="0%" id="stop193"/>
+      <stop stop-color="#56C0A7" offset="100%" id="stop195"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-App-Stream_32_svg__a" id="linearGradient5762" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0" gradientTransform="translate(-0.59656004,82.947658)"/>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_Amazon-EC2-Auto-Scaling_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8511B" offset="0%" id="stop13019"/>
+      <stop stop-color="#F90" offset="100%" id="stop13021"/>
+    </linearGradient>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_Amazon-EventBridge_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B0084D" offset="0%" id="stop13042"/>
+      <stop stop-color="#FF4F8B" offset="100%" id="stop13044"/>
+    </linearGradient>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_Amazon-DynamoDB_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2E27AD" offset="0%" id="stop13065"/>
+      <stop stop-color="#527FFF" offset="100%" id="stop13067"/>
+    </linearGradient>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_AWS-Simple-Notification-Service_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#B0084D" offset="0%" id="stop13111"/>
+      <stop stop-color="#FF4F8B" offset="100%" id="stop13113"/>
+    </linearGradient>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_Elastic-Load-Balancing_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#4D27A8" offset="0%" id="stop13134"/>
+      <stop stop-color="#A166FF" offset="100%" id="stop13136"/>
+    </linearGradient>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_Amazon-Elastic-Block-Store_32_svg__a" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1B660F" offset="0%" id="stop13180"/>
+      <stop stop-color="#6CAE3E" offset="100%" id="stop13182"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-App-Stream_32_svg__a" id="linearGradient42179" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.59656004,82.947658)" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient72931" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-Elastic-Block-Store_32_svg__a" id="linearGradient104937" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient124250" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-Elastic-Block-Store_32_svg__a" id="linearGradient124252" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient x1="0" y1="40" x2="40" y2="0" id="Arch_AWS-Lambda_32_svg__a-0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C8511B" offset="0%" id="stop197973"/>
+      <stop stop-color="#F90" offset="100%" id="stop197975"/>
+    </linearGradient>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_AWS-Lambda_32_svg__a-0" id="linearGradient198795" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EC2-Auto-Scaling_32_svg__a" id="linearGradient240131" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient248877" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient251843" id="linearGradient251839" x1="287.19391" y1="79.375" x2="290.90103" y2="79.375" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient251843" id="linearGradient251847" gradientUnits="userSpaceOnUse" x1="52.56237" y1="127" x2="138.49973" y2="127"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_AWS-Simple-Notification-Service_32_svg__a" id="linearGradient256161" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EC2-Auto-Scaling_32_svg__a" id="linearGradient256574" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient257442" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient251843" id="linearGradient257444" gradientUnits="userSpaceOnUse" x1="287.19391" y1="79.375" x2="290.90103" y2="79.375" gradientTransform="translate(6.2507739)"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient251843" id="linearGradient2578" x1="107.97829" y1="123.17372" x2="295.52917" y2="123.17372" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient251843" id="linearGradient3510" x1="199.50832" y1="161.72446" x2="203.21542" y2="161.72446" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient251843" id="linearGradient3777" x1="214.77148" y1="162.02034" x2="279.04114" y2="162.02034" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient3775" id="linearGradient10768" x1="121.28051" y1="195.26253" x2="186.63417" y2="195.26253" gradientUnits="userSpaceOnUse" gradientTransform="translate(-0.48454263)"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EC2-Auto-Scaling_32_svg__a" id="linearGradient12673" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient10766" id="linearGradient42566" x1="30.88114" y1="28.250118" x2="284.19095" y2="28.250118" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient10766" id="linearGradient43213" x1="5.1197085" y1="126.87533" x2="95.620522" y2="126.87533" gradientUnits="userSpaceOnUse"/>
+    <linearGradient inkscape:collect="always" xlink:href="#Arch_Amazon-EventBridge_32_svg__a" id="linearGradient49719" gradientUnits="userSpaceOnUse" x1="0" y1="40" x2="40" y2="0"/>
+    <linearGradient inkscape:collect="always" xlink:href="#linearGradient10766" id="linearGradient50877" x1="41.828209" y1="116.24811" x2="63.362431" y2="116.24811" gradientUnits="userSpaceOnUse"/>
+  </defs>
+  <g inkscape:groupmode="layer" id="layer4" inkscape:label="icons" style="display:inline">
+    <g id="g42043" transform="matrix(0.26458333,0,0,0.26458333,-57.070961,169.65482)" style="display:inline;fill:none;fill-rule:evenodd">
+      <g fill="none" fill-rule="evenodd" id="g13053" transform="translate(303.73427,502.00095)">
+        <path d="M 0,0 H 40 V 40 H 0 Z" fill="url(#Arch_Amazon-EventBridge_32_svg__a)" id="path13049" style="fill:url(#linearGradient124250)"/>
+        <path d="m 11.056,28.594 a 2.09,2.09 0 0 1 -2.08,-2.096 2.09,2.09 0 0 1 2.08,-2.095 c 1.146,0 2.08,0.94 2.08,2.095 a 2.09,2.09 0 0 1 -2.08,2.096 z m 1.857,0.363 a 3.093,3.093 0 0 0 1.223,-2.459 c 0,-1.711 -1.382,-3.103 -3.08,-3.103 -0.42,0 -0.817,0.086 -1.181,0.24 L 8.076,20.496 10.438,16.374 9.573,15.87 7.067,20.245 a 0.504,0.504 0 0 0 0,0.503 l 1.966,3.43 a 3.09,3.09 0 0 0 -1.056,2.32 c 0,1.712 1.38,3.104 3.079,3.104 0.342,0 0.665,-0.07 0.973,-0.174 l 1.531,2.844 A 0.5,0.5 0 0 0 14,32.535 h 5.5 v -1.008 h -5.203 l -1.385,-2.57 z M 29.944,16.56 a 2.09,2.09 0 0 1 -2.08,-2.096 2.09,2.09 0 0 1 2.08,-2.096 2.09,2.09 0 0 1 2.078,2.096 2.09,2.09 0 0 1 -2.079,2.096 z m 2.023,0.224 a 3.095,3.095 0 0 0 1.055,-2.32 c 0,-1.711 -1.38,-3.104 -3.079,-3.104 -0.34,0 -0.662,0.07 -0.97,0.173 L 27.442,8.62 A 0.497,0.497 0 0 0 27,8.351 H 21.5 V 9.36 h 5.2 l 1.39,2.644 a 3.1,3.1 0 0 0 -1.226,2.462 c 0,1.71 1.381,3.103 3.08,3.103 0.42,0 0.818,-0.086 1.18,-0.24 l 1.799,3.14 -2.362,4.12 0.866,0.504 2.505,-4.373 a 0.504,0.504 0 0 0 0,-0.504 l -1.965,-3.43 z m -4.573,16.207 a 2.09,2.09 0 0 1 -2.08,-2.095 2.09,2.09 0 0 1 2.08,-2.095 2.09,2.09 0 0 1 2.079,2.095 2.09,2.09 0 0 1 -2.08,2.095 z m -9.19,-8.491 -2.293,-4.002 2.292,-4 h 4.584 l 2.294,4 -2.294,4.002 H 18.203 Z M 13.636,12.197 a 2.09,2.09 0 0 1 -2.08,-2.095 2.09,2.09 0 0 1 2.08,-2.095 c 1.146,0 2.08,0.94 2.08,2.095 a 2.09,2.09 0 0 1 -2.08,2.095 z m 13.758,15.596 c -0.625,0 -1.206,0.191 -1.692,0.515 l -2.07,-3.267 2.46,-4.29 a 0.504,0.504 0 0 0 0,-0.504 L 23.51,15.742 A 0.498,0.498 0 0 0 23.077,15.49 h -4.752 l -2.279,-3.481 a 3.088,3.088 0 0 0 0.67,-1.907 c 0,-1.711 -1.382,-3.103 -3.08,-3.103 -1.699,0 -3.08,1.392 -3.08,3.103 0,1.712 1.381,3.103 3.08,3.103 a 3.04,3.04 0 0 0 1.668,-0.502 l 2.09,3.194 -2.492,4.35 a 0.504,0.504 0 0 0 0,0.503 l 2.58,4.506 a 0.497,0.497 0 0 0 0.433,0.252 h 4.828 l 2.218,3.505 A 3.092,3.092 0 0 0 27.395,34 c 1.698,0 3.079,-1.393 3.079,-3.103 0,-1.712 -1.381,-3.103 -3.08,-3.103 z" fill="#ffffff" id="path13051"/>
+      </g>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="323.73428" y="572.28278" id="text41981"><tspan sodipodi:role="line" id="tspan41979" x="323.73428" y="572.28278">event rules</tspan></text>
+    </g>
+    <g id="g42071" transform="matrix(0.26458333,0,0,0.26458333,-20.301111,135.60843)" style="display:inline;fill:none;fill-rule:evenodd">
+      <g fill="none" fill-rule="evenodd" id="g13145" transform="translate(864.85,502.00095)">
+        <path d="M 0,0 H 40 V 40 H 0 Z" fill="url(#Arch_Elastic-Load-Balancing_32_svg__a)" id="path13141" style="fill:url(#Arch_Elastic-Load-Balancing_32_svg__a)"/>
+        <path d="m 15,27 c -3.859,0 -7,-3.14 -7,-7 0,-3.86 3.141,-7 7,-7 3.859,0 7,3.14 7,7 0,3.86 -3.141,7 -7,7 m 14,1 c 1.103,0 2,0.897 2,2 0,1.103 -0.897,2 -2,2 -1.103,0 -2,-0.897 -2,-2 0,-1.103 0.897,-2 2,-2 M 29,8 c 1.103,0 2,0.897 2,2 0,1.103 -0.897,2 -2,2 -1.103,0 -2,-0.897 -2,-2 0,-1.103 0.897,-2 2,-2 m 1,10.5 c 1.103,0 2,0.897 2,2 0,1.103 -0.897,2 -2,2 -1.103,0 -2,-0.897 -2,-2 0,-1.103 0.897,-2 2,-2 M 22.931,21 h 4.12 A 2.997,2.997 0 0 0 30,23.5 c 1.654,0 3,-1.346 3,-3 0,-1.654 -1.346,-3 -3,-3 A 2.997,2.997 0 0 0 27.051,20 H 23 c 0,-1.489 -0.416,-2.88 -1.128,-4.075 l 4.827,-4.023 A 2.982,2.982 0 0 0 29,13 c 1.654,0 3,-1.346 3,-3 0,-1.654 -1.346,-3 -3,-3 -1.654,0 -3,1.346 -3,3 0,0.361 0.074,0.702 0.191,1.022 l -4.885,4.072 A 7.985,7.985 0 0 0 15,12 c -4.411,0 -8,3.589 -8,8 0,4.411 3.589,8 8,8 a 7.985,7.985 0 0 0 6.306,-3.094 l 4.885,4.072 C 26.074,29.298 26,29.639 26,30 c 0,1.654 1.346,3 3,3 1.654,0 3,-1.346 3,-3 0,-1.654 -1.346,-3 -3,-3 -0.929,0 -1.75,0.433 -2.301,1.098 L 21.872,24.075 A 7.927,7.927 0 0 0 22.931,21" fill="#ffffff" id="path13143"/>
+      </g>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="884.84998" y="572.28278" id="text41997"><tspan sodipodi:role="line" id="tspan41995" x="884.84998" y="572.28278">load balancer</tspan></text>
+    </g>
+    <g id="g42085" transform="matrix(0.26458333,0,0,0.26458333,-10.561209,135.52346)" style="display:inline;fill:none;fill-rule:evenodd">
+      <g fill="none" fill-rule="evenodd" id="g13191" transform="translate(1145.4079,502.00095)">
+        <path d="M 0,0 H 40 V 40 H 0 Z" fill="url(#Arch_Amazon-Elastic-Block-Store_32_svg__a)" id="path13187" style="fill:url(#linearGradient124252)"/>
+        <path d="m 33,28 h 1 v 6 h -6 v -1 h 4.293 L 27.646,28.354 28.354,27.646 33,32.293 Z M 13.354,28.354 8.707,33 H 13 v 1 H 7 v -6 h 1 v 4.293 l 4.646,-4.647 z M 34,6 v 6 H 33 V 7.707 L 28.354,12.354 27.646,11.646 32.293,7 H 28 V 6 Z M 8.707,7 13.354,11.646 12.646,12.354 8,7.707 V 12 H 7 V 6 h 6 V 7 Z M 20.5,15.5 C 16.928,15.5 15,14.46 15,14.036 V 14 c 0,-0.626 2.093,-1.5 5.5,-1.5 3.407,0 5.5,0.874 5.5,1.5 v 0.036 C 26,14.46 24.072,15.5 20.5,15.5 Z m 0,12 C 17.093,27.5 15,26.626 15,26 V 15.389 c 1.228,0.727 3.404,1.111 5.5,1.111 2.096,0 4.272,-0.384 5.5,-1.111 V 26 c 0,0.626 -2.093,1.5 -5.5,1.5 z m 0,-16 C 17.265,11.5 14,12.273 14,14 v 12 c 0,1.727 3.265,2.5 6.5,2.5 3.235,0 6.5,-0.773 6.5,-2.5 V 14 c 0,-1.727 -3.265,-2.5 -6.5,-2.5 z" fill="#ffffff" id="path13189"/>
+      </g>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="1165.408" y="572.28278" id="text42005"><tspan sodipodi:role="line" id="tspan42003" x="1165.408" y="572.28278">ebs</tspan></text>
+    </g>
+    <g id="g42177" transform="matrix(0.26458333,0,0,0.26458333,-65.240588,153.41839)" style="display:inline;fill:none;fill-rule:evenodd">
+      <g id="g42171" transform="translate(-116.50467,419.05329)">
+        <path d="M -0.59656004,82.947658 H 39.40344 V 122.94766 H -0.59656004 Z" fill="url(#Arch_Amazon-App-Stream_32_svg__a)" id="path42167" style="fill:url(#linearGradient42179)"/>
+        <path d="m 20.40344,102.94766 v 12.35 l -13.231,-12.35 h 13.23 z m 0.699,13.958 a 0.499,0.499 0 0 0 0.3,-0.458 v -14 a 0.5,0.5 0 0 0 -0.5,-0.5 h -15 a 0.5,0.5 0 0 0 -0.34,0.866 l 15,14 a 0.5,0.5 0 0 0 0.54,0.092 z m 12.801,0.042 a 0.504,0.504 0 0 1 -0.336,-0.129 l -10.5,-9.5 0.672,-0.742 9.664,8.745 V 89.947658 h -26.293 l 9.647,9.646 -0.708,0.708002 -10.5,-10.500002 a 0.5,0.5 0 0 1 0.354,-0.854 h 28 a 0.5,0.5 0 0 1 0.5,0.5 v 27.000002 a 0.499,0.499 0 0 1 -0.5,0.5 z" fill="#ffffff" id="path42169"/>
+      </g>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="-97.101227" y="572.28278" id="text42175"><tspan sodipodi:role="line" id="tspan42173" x="-97.101227" y="572.28278">on-demand</tspan></text>
+    </g>
+    <g id="g72929" transform="matrix(0.26458333,0,0,0.26458333,-57.885724,197.09269)" style="display:inline;fill:none;fill-rule:evenodd">
+      <g fill="none" fill-rule="evenodd" id="g72923" transform="translate(303.73427,502.00095)">
+        <path d="M 0,0 H 40 V 40 H 0 Z" fill="url(#Arch_Amazon-EventBridge_32_svg__a)" id="path72919" style="fill:url(#linearGradient72931)"/>
+        <path d="m 11.056,28.594 a 2.09,2.09 0 0 1 -2.08,-2.096 2.09,2.09 0 0 1 2.08,-2.095 c 1.146,0 2.08,0.94 2.08,2.095 a 2.09,2.09 0 0 1 -2.08,2.096 z m 1.857,0.363 a 3.093,3.093 0 0 0 1.223,-2.459 c 0,-1.711 -1.382,-3.103 -3.08,-3.103 -0.42,0 -0.817,0.086 -1.181,0.24 L 8.076,20.496 10.438,16.374 9.573,15.87 7.067,20.245 a 0.504,0.504 0 0 0 0,0.503 l 1.966,3.43 a 3.09,3.09 0 0 0 -1.056,2.32 c 0,1.712 1.38,3.104 3.079,3.104 0.342,0 0.665,-0.07 0.973,-0.174 l 1.531,2.844 A 0.5,0.5 0 0 0 14,32.535 h 5.5 v -1.008 h -5.203 l -1.385,-2.57 z M 29.944,16.56 a 2.09,2.09 0 0 1 -2.08,-2.096 2.09,2.09 0 0 1 2.08,-2.096 2.09,2.09 0 0 1 2.078,2.096 2.09,2.09 0 0 1 -2.079,2.096 z m 2.023,0.224 a 3.095,3.095 0 0 0 1.055,-2.32 c 0,-1.711 -1.38,-3.104 -3.079,-3.104 -0.34,0 -0.662,0.07 -0.97,0.173 L 27.442,8.62 A 0.497,0.497 0 0 0 27,8.351 H 21.5 V 9.36 h 5.2 l 1.39,2.644 a 3.1,3.1 0 0 0 -1.226,2.462 c 0,1.71 1.381,3.103 3.08,3.103 0.42,0 0.818,-0.086 1.18,-0.24 l 1.799,3.14 -2.362,4.12 0.866,0.504 2.505,-4.373 a 0.504,0.504 0 0 0 0,-0.504 l -1.965,-3.43 z m -4.573,16.207 a 2.09,2.09 0 0 1 -2.08,-2.095 2.09,2.09 0 0 1 2.08,-2.095 2.09,2.09 0 0 1 2.079,2.095 2.09,2.09 0 0 1 -2.08,2.095 z m -9.19,-8.491 -2.293,-4.002 2.292,-4 h 4.584 l 2.294,4 -2.294,4.002 H 18.203 Z M 13.636,12.197 a 2.09,2.09 0 0 1 -2.08,-2.095 2.09,2.09 0 0 1 2.08,-2.095 c 1.146,0 2.08,0.94 2.08,2.095 a 2.09,2.09 0 0 1 -2.08,2.095 z m 13.758,15.596 c -0.625,0 -1.206,0.191 -1.692,0.515 l -2.07,-3.267 2.46,-4.29 a 0.504,0.504 0 0 0 0,-0.504 L 23.51,15.742 A 0.498,0.498 0 0 0 23.077,15.49 h -4.752 l -2.279,-3.481 a 3.088,3.088 0 0 0 0.67,-1.907 c 0,-1.711 -1.382,-3.103 -3.08,-3.103 -1.699,0 -3.08,1.392 -3.08,3.103 0,1.712 1.381,3.103 3.08,3.103 a 3.04,3.04 0 0 0 1.668,-0.502 l 2.09,3.194 -2.492,4.35 a 0.504,0.504 0 0 0 0,0.503 l 2.58,4.506 a 0.497,0.497 0 0 0 0.433,0.252 h 4.828 l 2.218,3.505 A 3.092,3.092 0 0 0 27.395,34 c 1.698,0 3.079,-1.393 3.079,-3.103 0,-1.712 -1.381,-3.103 -3.08,-3.103 z" fill="#ffffff" id="path72921"/>
+      </g>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="323.73428" y="572.28278" id="text72927"><tspan sodipodi:role="line" id="tspan72925" x="323.73428" y="572.28278">cron rules</tspan></text>
+    </g>
+    <g id="g104935" transform="matrix(0.26458333,0,0,0.26458333,-8.5420179,162.71592)" style="display:inline;fill:none;fill-rule:evenodd">
+      <g fill="none" fill-rule="evenodd" id="g104929" transform="translate(1145.4079,502.00095)">
+        <path d="M 0,0 H 40 V 40 H 0 Z" fill="url(#Arch_Amazon-Elastic-Block-Store_32_svg__a)" id="path104925" style="fill:url(#linearGradient104937)"/>
+        <path d="m 33,28 h 1 v 6 h -6 v -1 h 4.293 L 27.646,28.354 28.354,27.646 33,32.293 Z M 13.354,28.354 8.707,33 H 13 v 1 H 7 v -6 h 1 v 4.293 l 4.646,-4.647 z M 34,6 v 6 H 33 V 7.707 L 28.354,12.354 27.646,11.646 32.293,7 H 28 V 6 Z M 8.707,7 13.354,11.646 12.646,12.354 8,7.707 V 12 H 7 V 6 h 6 V 7 Z M 20.5,15.5 C 16.928,15.5 15,14.46 15,14.036 V 14 c 0,-0.626 2.093,-1.5 5.5,-1.5 3.407,0 5.5,0.874 5.5,1.5 v 0.036 C 26,14.46 24.072,15.5 20.5,15.5 Z m 0,12 C 17.093,27.5 15,26.626 15,26 V 15.389 c 1.228,0.727 3.404,1.111 5.5,1.111 2.096,0 4.272,-0.384 5.5,-1.111 V 26 c 0,0.626 -2.093,1.5 -5.5,1.5 z m 0,-16 C 17.265,11.5 14,12.273 14,14 v 12 c 0,1.727 3.265,2.5 6.5,2.5 3.235,0 6.5,-0.773 6.5,-2.5 V 14 c 0,-1.727 -3.265,-2.5 -6.5,-2.5 z" fill="#ffffff" id="path104927"/>
+      </g>
+      <text xml:space="preserve" style="font-style:normal;font-weight:normal;font-size:24px;line-height:1.25;font-family:sans-serif;text-align:center;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none" x="1165.408" y="572.28278" id="text104933"><tspan sodipodi:role="line" id="tspan104931" x="1165.408" y="572.28278">instance store</tspan></text>
+    </g>
+  </g>
+  </svg>
