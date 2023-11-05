@@ -10,11 +10,14 @@ block vars
 block content
     img(src="img/iteratec.png" alt="iteratec logo" style="max-height: 250px; margin-right: 40px")
     ul.imggrid(style="margin: 0 0 0 20px;")
-        li.fragment
-            | ~500 Pracowników w 7 miastach (Monachium, Dusseldorf, Frankfurt, Hamburg, Stuttgart, Wiedeń,
-            strong  Wrocław
-            | )
-            //img(src="img/office.png" alt="office" style="max-height: 250px")
+        li.fragment(style="position:relative")
+            // br
+            span(style="margin-left:130px")
+            | ~500 Pracowników
+            //w 7 miastach (Monachium, Dusseldorf, Frankfurt, Hamburg, Stuttgart, Wiedeń,
+            //strong  Wrocław
+            //| )
+            img.fragment(src="img/mapka.png" alt="mapka" style="max-height: 250px; position: absolute; left:0;top: -35px; z-index:-5")
         li.fragment
             img(src="img/nasi-klienci.png" alt="nasi klienci" style="max-height: 250px")
         li.fragment
