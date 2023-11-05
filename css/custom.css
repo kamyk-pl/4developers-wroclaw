@@ -22,7 +22,7 @@
 }
 
 .klient::before{
-  background-image: url('../img/client.png');
+  background-image: url('../img/client.jpeg');
   background-size: cover;
   background-position: center;
   content: "";
@@ -43,7 +43,7 @@
 }
 
 .appstream::before{
-  background-image: url('../img/aws-appstream.png');
+  background-image: url('../img/aws-appstream.jpeg');
   background-size: 100% ;
   background-position: 20% 0%;
   content: "";
@@ -65,7 +65,7 @@
 
 
 .success::before{
-  background-image: url('../img/success.png');
+  background-image: url('../img/success.jpeg');
   background-size: cover;
   background-position: center;
   content: "";
@@ -86,7 +86,7 @@
 }
 
 .happily::before{
-  background-image: url('../img/happily.png');
+  background-image: url('../img/happily.jpeg');
   background-size: 100%;
   background-position: center;
   background-repeat: no-repeat;
