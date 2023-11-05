@@ -1,4 +1,4 @@
-extends layout/layout-title.pug
+extends layout/layout.pug
 
 block vars
   - var title = 'title'
@@ -6,17 +6,22 @@ block vars
 
 
 block content
-        .flex
-          h2
-             br
-             br
+        .tytul
+            div
+                h2
+                  | Czasem warto
+                  | wyważać otwarte
+                  | drzwi,
+                div(style = "margin: 20px 0 275px 0")
+                  | czyli jak napisaliśmy sobie lepszą implementację produktu AWS
 
-             | Czasem warto
-             br
-             | wyważać otwarte
-             br
-             | drzwi,
-          div.fragment(style = "margin-top: 90px;")
-             | czyli jak napisaliśmy sobie lepszą implementację produktu AWS
-
+        div.flex(style="justify-content: space-between; margin: 1.5rem;" )
+            div
+                img(src="img/iteratec.png" alt="iteratec logo" style="max-height: 30px;")
+                br
+                img(src="img/4developers.png" alt="4developers logo" style="max-height: 30px;")
+            div(style="font-size: 32px; line-height: 50px;")
+                | Jakub Dymon
+                br
+                | Paweł Kamiński
  

@@ -21,6 +21,20 @@
   font-style: italic;
 }
 
+.tytul::before{
+  background-image: url('../img/title.jpg');
+  background-size: cover;
+  background-position: center;
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0;
+  width: 100%;
+  height: 90vh;
+  opacity: 0.3;
+}
+
+
 .klient::before{
   background-image: url('../img/client.jpeg');
   background-size: cover;
