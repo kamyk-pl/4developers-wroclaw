@@ -238,20 +238,42 @@
         </div>
         <aside class="notes"></aside>
       </section>
-      <section class="no-title-centered" id="g5-17" data-transition="none"><img src="img/intro-kuba.jpeg" style="max-height: 650px;max-width: 800px;"></section>
-      <section class="no-title-centered" id="g5-18" data-transition="none"><img src="img/saper.png" style="max-height: 800px;max-width: 900px;"></section>
+      <section class="no-title-centered" id="g5-17" data-transition="none"><img src="img/intro-kuba.jpeg" style="max-height: 650px;max-width: 800px;">
+        <aside class="notes">
+          <ul>
+            <li>Hmm -> AI</li>
+            <li>Prezydent</li>
+            <li>Na początek: AS -> EC2</li>
+          </ul>
+        </aside>
+      </section>
+      <section class="no-title-centered" id="g5-18" data-transition="none"><img src="img/saper.png" style="max-height: 800px;max-width: 900px;">
+        <aside class="notes">
+          <ul>
+            <li>Widok w przeglądarce</li>
+            <li>Szybkie wstawanie</li>
+          </ul>
+        </aside>
+      </section>
       <section id="g5-19" data-transition="none">
-        <h2 class="header">Tworzenie obrazu</h2>
+        <h2 class="header">Obraz instancji</h2>
         <div class="comparison">
           <div class="col">
             <div class="aws-service"><img src="img/appstream-icon.svg">AppStream</div>
-            <div class="fragment">Dedykowany<i> image builder</i></div>
+            <div class="fragment">AppStream Image</div>
           </div>
           <div class="col">
             <div class="aws-service"><img src="img/ec2.svg">EC2</div>
-            <div class="fragment">Obraz z instancji</div>
+            <div class="fragment">AMI</div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>Budowanie od nowa</li>
+            <li>AS: Ręcznie</li>
+            <li>Oskryptowanie</li>
+          </ul>
+        </aside>
       </section>
       <section id="g5-20" data-transition="none">
         <h2 class="header">Streaming</h2>
@@ -265,21 +287,42 @@
             <div class="fragment">Serwer NICE DCV</div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>AS: Widać, że NICE</li>
+          </ul>
+        </aside>
       </section>
       <section id="g5-21" data-transition="none">
         <h2 class="header">Przygotowanie instancji</h2>
         <div class="comparison">
           <div class="col">
             <div class="aws-service"><img src="img/appstream-icon.svg">AppStream</div>
-            <div class="fragment"><i>Session script + Session context</i></div>
+            <div class="fragment">Session context</div>
           </div>
           <div class="col">
             <div class="aws-service"><img src="img/ec2.svg">EC2</div>
-            <div class="fragment"><i>User data</i></div>
+            <div class="fragment">User data</div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>AS: Po połączeniu</li>
+            <li>AS: Na gueście</li>
+            <li>EC2: Po starcie (fajnie)</li>
+            <li>EC2: System - równolegle</li>
+          </ul>
+        </aside>
       </section>
-      <section id="g5-22" data-transition="none">
+      <section class="no-title-centered" id="g5-22" data-transition="none"><img src="img/saper.png" style="max-height: 800px;max-width: 900px;">
+        <aside class="notes">
+          <ul>
+            <li>Widok aplikacji</li>
+            <li>Brak explorera</li>
+          </ul>
+        </aside>
+      </section>
+      <section id="g5-23" data-transition="none">
         <h2 class="header">Widok aplikacji</h2>
         <div class="comparison">
           <div class="col">
@@ -291,8 +334,13 @@
             <div class="fragment">Nadpisanie winlogona</div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>Winlogon</li>
+          </ul>
+        </aside>
       </section>
-      <section id="g5-23" data-transition="none">
+      <section id="g5-24" data-transition="none">
         <h2 class="header">Steam VR</h2>
         <div class="comparison">
           <div class="col">
@@ -304,10 +352,29 @@
             <div class="fragment"><img src="img/kritischer-fehler.png" style="max-height: 200px;max-width: 300px;"></div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>Kontekst - co to steamvr</li>
+            <li>AS: Działa</li>
+            <li>EC2: Kritischer Fehler</li>
+            <li>Mało info</li>
+            <li>Długo szukaliśmy - wersje sterowników</li>
+            <li>Okazuje się...</li>
+          </ul>
+        </aside>
       </section>
-      <section class="no-title-centered" id="g5-24" data-transition="none"><img src="img/always-icons.jpg" style="max-height: 550px;max-width: 800px;"></section>
-      <section id="g5-25" data-transition="none">
-        <h2 class="header">EBS</h2>
+      <section class="no-title-centered" id="g5-25" data-transition="none"><img src="img/always-icons.jpg" style="max-height: 550px;max-width: 800px;">
+        <aside class="notes">
+          <ul>
+            <li>... za każdą EC2 stoi EBS</li>
+            <li>Windows: dysk</li>
+            <li>tak naprawdę - S3</li>
+            <li>fio</li>
+          </ul>
+        </aside>
+      </section>
+      <section id="g5-26" data-transition="none">
+        <h2 class="header">Dysk</h2>
         <div class="comparison">
           <div class="col">
             <div class="aws-service"><img src="img/appstream-icon.svg">AppStream</div>
@@ -318,25 +385,49 @@
             <div class="fragment">Wymaga nawodnienia</div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>więc...</li>
+            <li>Instancja długo wstaje</li>
+            <li>Trzeba wymyślić jak zarządzać</li>
+          </ul>
+        </aside>
       </section>
-      <section id="g5-26" data-transition="none">
+      <section id="g5-27" data-transition="none">
         <h2 class="header">Punkt wyjścia</h2>
         <div>
           <div class="diagram"><img src="img/backend.svg"><img src="img/long https.svg"><img src="img/appstream.svg"></div>
         </div>
-        <aside class="notes"></aside>
-      </section>
-      <section id="g5-27" data-transition="none">
-        <h2 class="header">Warm pool</h2>
-        <div><img src="img/warmpool.jpeg" style="max-height: 550px;max-width: 800px;"></div>
-        <aside class="notes"></aside>
+        <aside class="notes">
+          <li>Uprośćmy Pawła</li>
+          <li>Skalowalny backend</li>
+          <li>Prosi o instancję - dostaje linka</li>
+          <li>Klient <- inny projekt - użyjcie taki feature...</li>
+        </aside>
       </section>
       <section id="g5-28" data-transition="none">
-        <h2 class="header">Auto Scaling</h2>
-        <div><img src="img/autoscaling.jpeg" style="max-height: 550px;max-width: 800px;"></div>
-        <aside class="notes"></aside>
+        <h2 class="header">Warm pool</h2>
+        <div><img src="img/warmpool.jpeg" style="max-height: 550px;max-width: 800px;"></div>
+        <aside class="notes">
+          <li>Zamiast...</li>
+          <li>stworzenie instancji</li>
+          <li>odpalenie userdata</li>
+          <li>nie wszystko</li>
+          <li>szybciej gotowa</li>
+          <li>problem - część usługi, która nie działa tak jak tego potrzebujemy</li>
+        </aside>
       </section>
       <section id="g5-29" data-transition="none">
+        <h2 class="header">Auto Scaling</h2>
+        <div><img src="img/autoscaling.jpeg" style="max-height: 550px;max-width: 800px;"></div>
+        <aside class="notes">
+          <li>Raczej dla naszego backendu</li>
+          <li>Chcemy skalować w zależności...</li>
+          <li>Jednakowe instancje</li>
+          <li>Wyzwania...</li>
+        </aside>
+      </section>
+      <section id="g5-30" data-transition="none">
         <h2 class="header">Zamawianie instancji</h2>
         <div class="comparison">
           <div class="col">
@@ -348,8 +439,14 @@
             <div class="fragment">desired-capacity=5</div>
           </div>
         </div>
+        <aside class="notes">
+          <ul>
+            <li>AS: Inkrementacja</li>
+            <li>ASG: Desired capacity</li>
+          </ul>
+        </aside>
       </section>
-      <section id="g5-30" data-transition="none">
+      <section id="g5-31" data-transition="none">
         <h2 class="header">Otrzymywanie instancji</h2>
         <div class="comparison">
           <div class="col">
@@ -361,38 +458,147 @@
             <div class="fragment">"Postaram się."</div>
           </div>
         </div>
-      </section>
-      <section class="no-title-centered" id="g5-31" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/long https.svg"><img class="overlay" src="img/overlay.svg"><img src="img/fleetmgmt.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>AS: Synchronicznie - link</li>
+            <li>ASG: Asynchronicznie - nie wiadomo czy i kiedy</li>
+            <li>ASG: Asynchronicznie - trzeba się wywiedzieć</li>
+            <li>Będzie potrzebna apka...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-32" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/fleetmgmt.svg"><img class="overlay" src="img/overlay.svg"><img src="img/fleetmgmt sqs.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/long https.svg"><img class="overlay" src="img/overlay.svg"><img src="img/fleetmgmt.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>Chcemy, żeby apka + ASG = AppStream</li>
+            <li>Długi proces, może zerwać połączenie, może umrzeć backend</li>
+            <li>Zróbmy asynchronicznie...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-33" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/orders unchanged.svg"><img class="overlay" src="img/overlay.svg"><img src="img/orders.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/fleetmgmt.svg"><img class="overlay" src="img/overlay.svg"><img src="img/fleetmgmt sqs.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>Kolejka zamówień</li>
+            <li>SQS</li>
+            <li>Skalowalny backend -> SNS</li>
+            <li>Kolejka odbiorcza</li>
+            <li>Wyzwanie - desired-capacity</li>
+            <li>Drażliwa kwestia</li>
+            <li>8 vs 6</li>
+          </ul>
+        </aside>
       </section>
-      <section class="no-title-centered" id="g5-34" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/orders.svg"><img src="img/orders unchanged.svg"><img class="overlay" src="img/overlay.svg"><img src="img/event bridge.svg"></div>
+      <section class="no-title-centered" id="g5-34" data-transition="none"><img src="img/captain.png" style="max-height: 650px;max-width: 800px;">
+        <aside class="notes">
+          <ul>
+            <li>Decyzja architektoniczna</li>
+            <li>Trudniej skalować</li>
+            <li>Cache -> szybciej</li>
+            <li>Sync na początku</li>
+            <li>Drugie wyzwanie - asynchroniczność...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-35" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/orders.svg"><img src="img/orders unchanged.svg"><img class="overlay" src="img/overlay.svg"><img src="img/event bridge.svg"><img src="img/event bridge sqs.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/orders unchanged.svg"><img class="overlay" src="img/overlay.svg"><img src="img/orders.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>orders - zarządzanie asg</li>
+            <li>pending-orders - przypisywanie instancji</li>
+            <li>musimy skądś brać info</li>
+            <li>może eventy?...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-36" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/events unchanged.svg"><img src="img/events orders.svg"><img src="img/assignments.svg"><img class="overlay" src="img/overlay.svg"><img src="img/events.svg"><img src="img/eventlog.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/orders.svg"><img src="img/orders unchanged.svg"><img class="overlay" src="img/overlay.svg"><img src="img/event bridge.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>Jest usługa - EB</li>
+            <li>Wszystkie serwisy AWS...</li>
+            <li>Reguły</li>
+            <li>Obczailiśmy EC2 i ASG - przykłady eventów</li>
+            <li>Przyspieszenie</li>
+            <li>Stworzyliśmy reguły...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-37" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/events unchanged.svg"><img src="img/events orders.svg"><img src="img/assignments.svg"><img src="img/eventlog.svg"><img src="img/events.svg"><img class="overlay" src="img/overlay.svg"><img src="img/eventlog2.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/orders.svg"><img src="img/orders unchanged.svg"><img class="overlay" src="img/overlay.svg"><img src="img/event bridge.svg"><img src="img/event bridge sqs.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>... wrzucaj na kolejkę</li>
+            <li>pos obserwuje 2 kolejki i podejmuje decyzje</li>
+            <li>działa dopóki działa</li>
+            <li>restart - brak info co przed</li>
+            <li>transakcyjna baza - nie mamy</li>
+            <li>zróbmy event log...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-38" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/events orders.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img class="overlay" src="img/overlay.svg"><img src="img/url.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/events unchanged.svg"><img src="img/events orders.svg"><img src="img/assignments.svg"><img class="overlay" src="img/overlay.svg"><img src="img/events.svg"><img src="img/eventlog.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>es: zapisuje wszystkie eventy i przerzuca do pos</li>
+            <li>po restarcie - pos czyta event log</li>
+            <li>event log jest sprzątany</li>
+            <li>brak info o przypisaniach...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-39" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img src="img/url.svg"><img class="overlay" src="img/overlay.svg"><img src="img/timeout.svg"><img src="img/events orders.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/events unchanged.svg"><img src="img/events orders.svg"><img src="img/assignments.svg"><img src="img/eventlog.svg"><img src="img/events.svg"><img class="overlay" src="img/overlay.svg"><img src="img/eventlog2.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>... subskrybujemy kolejkę es do sns</li>
+            <li>es filtruje</li>
+            <li>wszystko działa</li>
+            <li>brakuje 2 feature'ów</li>
+            <li>pierwszy - url</li>
+            <li>nie ma w eventach</li>
+            <li>powtarzamy schemat...</li>
+          </ul>
+        </aside>
       </section>
       <section class="no-title-centered" id="g5-40" data-transition="none">
-        <div class="diagram"><img src="img/backend.svg"><img class="overlay" src="img/overlay.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img src="img/url.svg"><img src="img/timeout.svg"><img src="img/events orders.svg"></div>
+        <div class="diagram"><img src="img/backend.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/events orders.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img class="overlay" src="img/overlay.svg"><img src="img/url.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>... wyciągamy szukanie urla</li>
+            <li>us obserwuje eventy</li>
+            <li>cache</li>
+            <li>drugi feature - ubijanie instancji</li>
+            <li>eb potrafi w crony...</li>
+          </ul>
+        </aside>
       </section>
-      <section id="g5-41" data-transition="none">
+      <section class="no-title-centered" id="g5-41" data-transition="none">
+        <div class="diagram"><img src="img/backend.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img src="img/url.svg"><img class="overlay" src="img/overlay.svg"><img src="img/timeout.svg"><img src="img/events orders.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>dorzucamy ts</li>
+            <li>ts obserwuje eventy i zakłada crony</li>
+            <li>crony mogłyby ubijać, ale reguła arch.</li>
+            <li>cron grzecznie prosi o ubicie</li>
+          </ul>
+        </aside>
+      </section>
+      <section class="no-title-centered" id="g5-42" data-transition="none">
+        <div class="diagram"><img src="img/backend.svg"><img class="overlay" src="img/overlay.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img src="img/url.svg"><img src="img/timeout.svg"><img src="img/events orders.svg"></div>
+        <aside class="notes">
+          <ul>
+            <li>tak wyglądał fleet-mgmt w momenie pójścia na proda</li>
+            <li>chodzi już pół roku</li>
+            <li>bugi się zdarzają...</li>
+            <li>jest bazą wielu featurów - o tym Paweł</li>
+          </ul>
+        </aside>
+      </section>
+      <section id="g5-43" data-transition="none">
         <h2 class="header"></h2>
         <div>
           <div class="diagram"><img src="img/backend.svg"><img class="overlay" src="img/overlay.svg"><img src="img/events.svg"><img src="img/events unchanged.svg"><img src="img/eventlog.svg"><img src="img/eventlog2.svg"><img src="img/url.svg"><img src="img/timeout.svg"><img src="img/events orders.svg"></div>
@@ -400,7 +606,7 @@
         </div>
         <aside class="notes"></aside>
       </section>
-      <section id="podsumowanie my-42" data-transition="none">
+      <section id="podsumowanie my-44" data-transition="none">
         <h2 class="header">Podsumowanie</h2>
         <div>
           <h3>my</h3>
@@ -414,7 +620,7 @@
         </div>
         <aside class="notes"></aside>
       </section>
-      <section id="podsumowanie klient-43" data-transition="none">
+      <section id="podsumowanie klient-45" data-transition="none">
         <h2 class="header">Podsumowanie</h2>
         <div>
           <h3>klient</h3>
@@ -426,7 +632,7 @@
         </div>
         <aside class="notes"></aside>
       </section>
-      <section id="podsumowanie klienci klienta-44" data-transition="none">
+      <section id="podsumowanie klienci klienta-46" data-transition="none">
         <h2 class="header">Podsumowanie</h2>
         <div>
           <h3>użytkownicy</h3>
@@ -438,7 +644,7 @@
         </div>
         <aside class="notes"></aside>
       </section>
-      <section id="podsumowanie my-45" data-transition="none">
+      <section id="podsumowanie my-47" data-transition="none">
         <h2 class="header">Podsumowanie</h2>
         <div>
           <h3>warto:</h3>
@@ -455,7 +661,7 @@
         </div>
         <aside class="notes"></aside>
       </section>
-      <section id="podsumowanie my-46" data-transition="none">
+      <section id="podsumowanie my-48" data-transition="none">
         <h2 class="header"></h2>
         <div>
           <div class="bio">
